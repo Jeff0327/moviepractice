@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/moviepractice/static/js/main.8d04ca91.js",
+    "main.css": "/moviepractice/static/css/main.4151315a.css",
+    "main.js": "/moviepractice/static/js/main.54c26972.js",
     "index.html": "/moviepractice/index.html",
-    "main.8d04ca91.js.map": "/moviepractice/static/js/main.8d04ca91.js.map"
+    "main.4151315a.css.map": "/moviepractice/static/css/main.4151315a.css.map",
+    "main.54c26972.js.map": "/moviepractice/static/js/main.54c26972.js.map"
   },
   "entrypoints": [
-    "static/js/main.8d04ca91.js"
+    "static/css/main.4151315a.css",
+    "static/js/main.54c26972.js"
   ]
 }
