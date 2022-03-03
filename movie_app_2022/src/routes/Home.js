@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import Movie from "../components/Movie";
-
+import styles from "./Home.module.css";
+const callcss= document.createElement("link");
 function Home(){
     const [loading, setLoading] = useState(true);
     const [movies, setMovies] = useState([]);
@@ -14,12 +15,14 @@ function Home(){
     useEffect(()=>{
     getMovies()
     },[]);
-    console.log(movies);
+    
     return (
-    <div>
+        
+    <div className={styles.container}>
+        <link rel="stylesheet" type="text/css" href="./moviecover.css"></link>
     {loading ? (
         <h1>Loading...</h1>):(
-    <div>
+    <div className={styles.movies}>
         {movies.map((movie) =>( 
         <Movie
         id={movie.id}
@@ -28,6 +31,7 @@ function Home(){
         title={movie.title} 
         summary={movie.summary} 
         genres={movie.genres}
+        year={movie.year}
         />
         ))}
         </div>
