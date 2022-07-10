@@ -1,0 +1,10 @@
+[core]
+	editor = \"C:\\Users\\aa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Jeff0327
+	email = 95613344+Jeff0327@users.noreply.github.com

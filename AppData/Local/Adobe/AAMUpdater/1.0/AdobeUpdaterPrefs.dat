@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Preferences>
+<LogFile>C:\Users\aa\AppData\Local\Adobe\AAMUpdater\1.0\aamu.log</LogFile>
+<LogLevel>2</LogLevel>
+<WebFeedEtag>&quot;4479f-58875c1fe25bf&quot;</WebFeedEtag>
+<WebFeedSize>280479</WebFeedSize>
+<WebFeedSeqNo>1</WebFeedSeqNo>
+<LastDateCheck>2020-06-05T17:07:26</LastDateCheck>
+<CSUVersion>9.0</CSUVersion>
+<StartupLogFile>C:\Users\aa\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log</StartupLogFile>
+<OSVersion>10.0.18363</OSVersion>
+<IsFirstRun>0</IsFirstRun>
+<ChannelsEnabled>
+<MapPrefEntry MapPrefKey="AdobeApplicationManager-1.0">1</MapPrefEntry>
+</ChannelsEnabled>
+<ChannelsInstalled>
+<MapPrefEntry MapPrefKey="AdobeApplicationManager-1.0">1</MapPrefEntry>
+</ChannelsInstalled>
+<CCMChannels></CCMChannels>
+</Preferences>

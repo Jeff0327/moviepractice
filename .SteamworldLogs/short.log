@@ -1,0 +1,2589 @@
+===== STARTING NEW LOG STREAM AT 1585653224 2020-03-31 11:13:44.682 =====
+16.348 Starting new task  1 / 12 : FuncLoadable FuncLoadable
+16.348 Steam Initialized
+16.348 Starting new task  2 / 12 : DarkConfigLoader DarkConfigLoader
+16.348 DarkConfig parsing ms: 0
+16.348 2020-03-31 11:13:45.573 DarkConfig Loaded
+16.368 Starting new task  3 / 12 : FuncLoadable FuncLoadable
+16.368 Locale en-US English
+16.368 TextMachine Initialized
+16.500 Starting new task  4 / 12 : StaticConfigLoader StaticConfigLoader
+16.500 Loading Version From C:/Program Files (x86)/Steam/steamapps/common/Steambirds Alliance/Steambirds_Data/StreamingAssets/version.bytes
+16.500 Loaded Version 200320.2229
+16.500 Commit Hash a1ed3dd5298057f3fd0737ae5876c22bb8b6b816
+16.672 GC; Frame Time 171.7846 ms
+16.672 Config Pass 0
+16.987 CLIENT ANOMALY DETECTED 314.5474 False 4 KU 0 0 A 0 0 S 0 0 O 0 0 KU 0 0 A 0 0 S 0 0 O 0 0 
+ UICoreFocusManager.Update: S 0.0 C 1.0 ~ 0.0 | Max 0.0 P99 0.0 P95 0.0 P50 0.0 Min 0.0
+UICoreFocusManager.Update.AutoSelectionFix: S 0.0 C 1.0 ~ 0.0 | Max 0.0 P99 0.0 P95 0.0 P50 0.0 Min 0.0
+AnomalyDetector.UpdateFirstHalf: 3.9949
+
+16.987 Config Pass 1
+17.021 Config Pass 2
+17.355 CLIENT ANOMALY DETECTED 481.7502 False 4 KU 0 0 A 0 0 S 0 0 O 0 0 KU 0 0 A 0 0 S 0 0 O 0 0 
+ InputManager.Update: S 0.0 C 1.0 ~ 0.0 | Max 0.0 P99 0.0 P95 0.0 P50 0.0 Min 0.0
+AnomalyDetector.UpdateFirstHalf: 0.4448
+
+17.355 Config Pass 3
+17.388 Config Pass 4
+17.655 GC; Frame Time 267.3684 ms
+17.655 2020-03-31 11:13:47.127 Config Loaded
+17.763 Starting new task  5 / 12 : FuncLoadable FuncLoadable
+Sentry Setup
+17.763 Error Tracking Initialized
+17.797 Starting new task  6 / 12 : FuncLoadable FuncLoadable
+17.797 IsNoRender Initialized
+17.831 Starting new task  7 / 12 : FuncLoadable FuncLoadable
+17.831 Log Tags Initialized
+17.864 Starting new task  8 / 12 : FuncLoadable FuncLoadable
+17.864 Controls Initialized
+17.897 Starting new task  9 / 12 : FuncLoadable FuncLoadable
+17.897 2020-03-31 11:13:47.264 Menu Instantiated
+17.947 Starting new task  10 / 12 : FuncLoadable FuncLoadable
+17.947 2020-03-31 11:13:47.311 Spawned additional client prefabs
+Warn: 17.947 No UICoreControl for DeathSpecial(Clone) (UGUIPlaneListItem)
+Warn: 17.947 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+Warn: Initialization Warning: Pool 'UI' contains a PrefabPool with no prefab reference. Skipping.
+17.947 2020-03-31 11:13:48.146 Scripts Pre-instantiation
+Warn: 17.947 InputField (UnityEngine.GameObject) group is not connected to a focus manager so we ignore the put away call.
+17.947 ConnectionConfig prod
+17.947 Setup steam payment helper
+17.947 ConnectionConfig prod
+17.947 Device 5051afdbf012ab480e0dfbb31730dca252ef18e2 Desktop To be filled by O.E.M. (Gigabyte Technology Co., Ltd.) DESKTOP-8RCJ67U
+17.947 quests: Initializing QuestManager
+17.947 2020-03-31 11:13:48.428 Scripts Instantiated ======================
+17.947 PreRelease Content DISABLED
+17.947 Using phantasm url http://phantasm.spryfox.com/a
+17.947 SetClientUIState LoggingIn from Initial
+17.947 Showing external login ticket_steam 4 tries remaining
+No Playlist Controllers exist in the Scene. Music will not play.
+Warn: Starting framerate monitoring. Target FPS: 25 Current FPS: 13.16523
+18.280 Starting new task  11 / 12 : FuncLoadable FuncLoadable
+Incomplete event Event {system_language: Korean, device: To be filled by O.E.M. (Gigabyte Technology Co., Ltd.), device_id: 5051afdbf012ab480e0dfbb31730dca252ef18e2, utc_offset: 9, is_client_server: False, utc_client: 1585653228.44051, app_id: steambirds, proc_id: gen:sa63IHNAEeqBVIYzGNsPWg, version: 200320.2229, commit: a1ed3dd5298057f3fd0737ae5876c22bb8b6b816, sdk: u3, name: client_proc_starts} (total 1)
+18.280 UTC timestamp now is 2020-03-31 11:13:49.682
+18.334 Starting new task  12 / 12 : FuncLoadable FuncLoadable
+18.896 Region AS.KR
+18.980 Region AS.KR
+Warn: 22.841 rest http error https://steambirds.spryfox.com/ozy/user/login HTTP/1.1 403 Forbidden {
+    "errors": [
+        "user_missing"
+    ]
+} dt 1020
+22.841 External auth Login Failed Exception[Message=HTTP/1.1 403 Forbidden Errors=rest-error http-code-403 user_missing ] Backend.OzyException
+22.841 External account ok but there is no ozy account yet
+55.718 GC; Frame Time 6.1622 ms
+Warn: 59.065 rest http error https://steambirds.spryfox.com/ozy/user/create HTTP/1.1 403 Forbidden {
+    "errors": [
+        "username_invalid"
+    ]
+} dt 896
+78.312 UTC timestamp now is 2020-03-31 11:14:49.685
+112.199 Logged in with session token: DohqpB5NZcwSZfmcnl6j6w as GPseop2 accountId CFgFfS-4AaQAcRtMxcgz6w IsGivenUp False persistEnabled True
+114.602 Set preferred nexus to GFec-zsG83gAMoME4xwiAg
+114.602 Connecting to selected nexus SH[52.77.252.22:1111, 3E9A11DD767D18F1, Rebel City 1, Nexus, ready  ]
+114.602 Connecting to server  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 39/180 tags: nexus fields: {} hash: 1182507099]
+114.602 Load friends from GPseop2_friendslist
+114.602 EndClientUIState LoggingIn
+114.602 SetClientUIState JoiningServer from LoggingIn
+114.602 Clearing ambient effects
+114.798 Switching  from  False
+116.117 Client joined server 3E9A11DD767D18F1 local 4E954A09A9AE0AA2
+116.117 RegisterServerPlayer 3E9A11DD767D18F1
+116.117 RegisterPlayer 4E954A09A9AE0AA2
+116.117 AuthenticatePlayer
+120.833 Server ServerSays : You unlocked Quad
+120.833 Connection Attempt Cleared
+120.833 Welcome from 3E9A11DD767D18F1 Nexus GFec-zsG83gAMoME4xwiAg Rebel City 1 Nexus PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1) host space 1841299456
+120.833 Client welcome Nexus 12 650 3E9A11DD767D18F1 1841299456 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1)
+120.833 quests: QuestsOnWelcome quests=0, prevQuests=0
+120.833 EndClientUIState JoiningServer
+120.833 SetClientUIState EarlyAccessMessage from JoiningServer
+120.833 Viewport update mode NEXUS
+120.833 Current locale id en-US timezone offset 9
+120.833 ClientReceiveVagueCareerRewards VagueCareerReward(career_reward_storage_1, CareerRewardCondition(8, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_hangar_1, CareerRewardCondition(12, ), [QuestRewardData(AccountItem, hangar_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_2, CareerRewardCondition(22, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_3, CareerRewardCondition(36, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_4, CareerRewardCondition(50, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_5, CareerRewardCondition(66, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_6, CareerRewardCondition(84, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_7, CareerRewardCondition(101, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_8, CareerRewardCondition(120, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_9, CareerRewardCondition(140, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_10, CareerRewardCondition(160, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_11, CareerRewardCondition(180, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_12, CareerRewardCondition(200, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+120.835 Insta switching nexus from  True
+121.506 GC; Frame Time 9.6862 ms
+122.500 quests: ClientReceiveGiverQuests tavern 0
+122.517 quests: ClientReceiveGiverQuests crafter 379
+124.881 EndClientUIState EarlyAccessMessage
+124.881 SetClientUIState FirstPlaneChoice from EarlyAccessMessage
+124.881 SetClientUIState WaitingForTutorial from FirstPlaneChoice
+124.881 Joining Status status_waiting_tutorial 
+124.881 Joining Status status_joining_server 
+138.142 UTC timestamp now is 2020-03-31 11:15:49.688
+163.600 Switching to server RegisteredHost [ CAD7EE9369F85F10 149_DungeonTutorialWalker 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: tutorial fields: {} hash: -1654276689]
+163.600 Disconnect From Server Switching to other server
+163.600 Connection Attempt Cleared
+163.617 Client disconnected from server 3E9A11DD767D18F1 : Switching to other server
+163.617 Save friends to GPseop2_friendslist
+163.617 ResetConnectionState
+Warn: 163.617 ItemSubmenu (UnityEngine.GameObject) group is not connected to a focus manager so we ignore the put away call.
+163.619 GC; Frame Time 100.5239 ms
+163.619 Switching  from nexus False
+163.619 Joining Status status_joining_server 
+163.619 LoginThenJoinServer  RegisteredHost [ CAD7EE9369F85F10 149_DungeonTutorialWalker 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: tutorial fields: {} hash: -1654276689]
+163.619 SetClientUIState LoggingIn from Initial
+163.619 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+163.619 Connecting to server  RegisteredHost [ CAD7EE9369F85F10 149_DungeonTutorialWalker 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: tutorial fields: {} hash: -1654276689]
+163.619 Load friends from GPseop2_friendslist
+163.619 EndClientUIState LoggingIn
+163.619 SetClientUIState JoiningServer from LoggingIn
+163.619 Clearing ambient effects
+163.633 Client joined server CAD7EE9369F85F10 local 2B9EE0B92E163AA6
+163.633 RegisterServerPlayer CAD7EE9369F85F10
+163.633 RegisterPlayer 2B9EE0B92E163AA6
+163.633 AuthenticatePlayer
+164.317 Network problem report NORMAL 1585653375 RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 39/180 tags: nexus fields: {} hash: 1182507099] disconnected from game server: Switching to other server
+169.483 Server ServerSays : __TR__/ui/squad_new_leader/GPseop2
+169.483 Server ServerSays : __TR__/ui/squad_player_joined/GPseop2
+169.550 Connection Attempt Cleared
+169.550 Welcome from CAD7EE9369F85F10 Tutorial GADhVbt90jBSgq4ZEWIwqw 149_DungeonTutorialWalker DungeonTutorialWalker PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1) host space 2097152
+169.550 Client welcome DungeonTutorialWalker 12 650 CAD7EE9369F85F10 2097152 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1)
+169.550 Reassigning host space from 1841299456 to 2097152
+169.550 quests: QuestsOnWelcome quests=0, prevQuests=0
+169.550 EndClientUIState JoiningServer
+169.550 SetClientUIState EarlyAccessMessage from JoiningServer
+169.550 EndClientUIState EarlyAccessMessage
+169.550 SetClientUIState WaitingForAnyInput from EarlyAccessMessage
+169.550 Current locale id en-US timezone offset 9
+180.836 SetClientUIState PlaneSelection from WaitingForAnyInput
+180.836 Selected class walker
+180.836 Selected variant default
+181.083 Plane selection result HADhVbwBwfZzY6WArBao6Q True
+181.434 Switching dungeontutorial from  False
+181.500 safety on: invuln enabling: True
+181.500 SetClientUIState PlayingGame from PlaneSelection
+181.502 Starting conversation intro
+181.502 safety on: modal conversation enabling: False
+181.502 stuck on: modal conversation enabling: True
+186.483 safety off: invuln
+197.925 UTC timestamp now is 2020-03-31 11:16:49.694
+253.373 stuck off: modal conversation
+253.373 stuck disabled
+253.455 GC; Frame Time 32.1999 ms
+256.383 safety off: modal conversation
+256.383 safety disabled
+257.927 UTC timestamp now is 2020-03-31 11:17:49.695
+280.500 Server ServerSays : /pilot_levelup/2
+317.934 UTC timestamp now is 2020-03-31 11:18:49.705
+336.917 Auto equipping better item 1402226096:engine_destruction_1:IADhVb1szWQwjOpakd4jOg: ac 0 u 0
+345.819 ProcessText hi guys
+346.033 ClientProximityChat 10 GPseop2 hi guys 0  
+Warn: 348.067 Low framerate detected. Switching to lower quality settings.
+354.593 GC; Frame Time 70.5001 ms
+377.983 UTC timestamp now is 2020-03-31 11:19:49.754
+Warn: 378.124 Low framerate detected. Switching to lower quality settings.
+Warn: 393.147 Low framerate detected. Switching to lower quality settings.
+393.633 Auto equipping better item -2003896514:armor_1:IADhVb3c44WwVyWTIMG1yQ: ac 0 u 0
+396.283 SetClientUIState EnteringPortal from PlayingGame
+396.283 Joining Status status_enter_portal 
+396.283 safety on: going through portal handbrake enabling: True
+396.283 stuck on: going through portal handbrake enabling: True
+397.850 Switching to server RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 31/180 tags: nexus fields: {} hash: -482082329]
+397.850 Disconnect From Server Switching to other server
+397.850 Connection Attempt Cleared
+397.883 Client disconnected from server CAD7EE9369F85F10 : Switching to other server
+397.883 Network problem report NORMAL 1585653609 RegisteredHost [ CAD7EE9369F85F10 149_DungeonTutorialWalker 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: tutorial fields: {} hash: -1654276689] disconnected from game server: Switching to other server
+397.883 Save friends to GPseop2_friendslist
+397.883 ResetConnectionState
+397.919 GC; Frame Time 131.6388 ms
+397.919 Joining Status status_joining_server 
+397.919 LoginThenJoinServer  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 31/180 tags: nexus fields: {} hash: -482082329]
+397.919 SetClientUIState LoggingIn from Initial
+397.919 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+397.919 Connecting to server  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 31/180 tags: nexus fields: {} hash: -482082329]
+397.919 Load friends from GPseop2_friendslist
+397.919 EndClientUIState LoggingIn
+397.919 SetClientUIState JoiningServer from LoggingIn
+397.919 Clearing ambient effects
+397.933 Client joined server 3E9A11DD767D18F1 local 1465B99BD2C3CC5A
+397.933 RegisterServerPlayer 3E9A11DD767D18F1
+397.933 RegisterPlayer 1465B99BD2C3CC5A
+397.933 AuthenticatePlayer
+398.100 Switching  from dungeontutorial False
+403.400 Loading once_keys: 
+403.400 Loading timeouts: {}
+403.400 Connection Attempt Cleared
+403.400 Welcome from 3E9A11DD767D18F1 Nexus GFec-zsG83gAMoME4xwiAg Rebel City 1 Nexus PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1) host space 2059403264
+403.400 Client welcome Nexus 12 650 3E9A11DD767D18F1 2059403264 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1)
+403.400 Reassigning host space from 2097152 to 2059403264
+403.400 quests: QuestsOnWelcome quests=0, prevQuests=0
+403.400 EndClientUIState JoiningServer
+403.400 SetClientUIState EarlyAccessMessage from JoiningServer
+403.400 EndClientUIState EarlyAccessMessage
+403.400 SetClientUIState EventsAndNews from EarlyAccessMessage
+403.400 SetClientUIState PlaneSelection from EventsAndNews
+403.400 Plane selection result HADhVbwBwfZzY6WArBao6Q False
+403.400 Viewport update mode NEXUS
+403.400 Current locale id en-US timezone offset 9
+403.400 ClientReceiveVagueCareerRewards VagueCareerReward(career_reward_storage_1, CareerRewardCondition(8, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_hangar_1, CareerRewardCondition(12, ), [QuestRewardData(AccountItem, hangar_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_2, CareerRewardCondition(22, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_3, CareerRewardCondition(36, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_4, CareerRewardCondition(50, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_5, CareerRewardCondition(66, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_6, CareerRewardCondition(84, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_7, CareerRewardCondition(101, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_8, CareerRewardCondition(120, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_9, CareerRewardCondition(140, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_10, CareerRewardCondition(160, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_11, CareerRewardCondition(180, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_12, CareerRewardCondition(200, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+403.527 Insta switching nexus from  True
+403.783 quests: ClientReceiveGiverQuests tavern 0
+403.783 quests: ClientReceiveGiverQuests crafter 379
+404.150 safety on: invuln enabling: True
+404.150 SetClientUIState PlayingGame from PlaneSelection
+404.188 Starting conversation tut_00
+404.188 safety on: modal conversation enabling: False
+404.188 stuck on: modal conversation enabling: True
+404.200 quests: ClientReceivePlayerQuests quests=1(+1), prevQuests=0(+0), completedOutcomes=0
+409.133 safety off: invuln
+421.325 stuck off: modal conversation
+421.325 stuck disabled
+424.333 safety off: modal conversation
+424.333 safety disabled
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.200 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.283 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.383 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.383 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.383 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.383 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.383 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+434.383 ClientReceiveAbsenceOfRemotePlayerData CFgFejaDOOQCalQsYRh9Sg
+437.079 Switching overworld from nexus False
+437.626 UTC timestamp now is 2020-03-31 11:20:49.765
+439.567 safety on: followup enabling: True
+439.567 stuck on: followup enabling: True
+440.083 quests: ClientReceiveQuestRewards Q-tut_01-i-0 0
+442.018 SetClientUIState JoiningMission from PlayingGame
+442.018 Joining Status status_enter_mission 
+442.211 stuck off: followup
+442.211 stuck disabled
+442.283 Waiting for server switch
+443.633 Switching to server RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 10/60 tags: world fields: {} hash: 2004712622]
+443.633 Disconnect From Server Switching to other server
+443.633 Connection Attempt Cleared
+443.667 Client disconnected from server 3E9A11DD767D18F1 : Switching to other server
+443.667 Network problem report NORMAL 1585653655 RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 31/180 tags: nexus fields: {} hash: -482082329] disconnected from game server: Switching to other server
+443.667 Save friends to GPseop2_friendslist
+443.667 ResetConnectionState
+443.682 GC; Frame Time 113.1167 ms
+443.682 Switching  from overworld False
+443.682 Joining Status status_joining_server 
+443.682 LoginThenJoinServer  RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 10/60 tags: world fields: {} hash: 2004712622]
+443.682 SetClientUIState LoggingIn from Initial
+443.682 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+443.682 Connecting to server  RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 10/60 tags: world fields: {} hash: 2004712622]
+443.682 Load friends from GPseop2_friendslist
+443.682 EndClientUIState LoggingIn
+443.682 SetClientUIState JoiningServer from LoggingIn
+443.682 Clearing ambient effects
+443.683 Client joined server 9D485BF68D1F88D2 local 0DD2F0C9D00DB97A
+443.683 RegisterServerPlayer 9D485BF68D1F88D2
+443.683 RegisterPlayer 0DD2F0C9D00DB97A
+443.683 AuthenticatePlayer
+448.200 Server ServerSays : __TR__/ui/squad_player_joined/GPseop2
+448.200 Queuing conversation tut_01_start
+448.200 quests: ClientReceivePlayerQuests no local player! 2 0 0
+448.200 quests: ClientChooseGuidanceTarget 0
+448.200 quests: ClientReceivePlayerActiveQuest tut_01
+448.200 quests: ClientReceivePlayerActiveQuest tut_01
+448.200 quests: ClientChooseGuidanceTarget 0
+448.200 Loading once_keys: 
+448.200 Loading timeouts: {}
+448.200 Connection Attempt Cleared
+448.200 Welcome from 9D485BF68D1F88D2 World GFgFfH0b3awCzekZXhaVVA Merlin Island Basic PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1) host space 31457280
+448.200 Client welcome Basic 12 907.5 9D485BF68D1F88D2 31457280 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 1)
+448.200 Reassigning host space from 2059403264 to 31457280
+448.200 quests: QuestsOnWelcome quests=2, prevQuests=0
+448.200 EndClientUIState JoiningServer
+448.200 SetClientUIState EarlyAccessMessage from JoiningServer
+448.200 EndClientUIState EarlyAccessMessage
+448.200 SetClientUIState EventsAndNews from EarlyAccessMessage
+448.200 SetClientUIState PlaneSelection from EventsAndNews
+448.200 Plane selection result HADhVbwBwfZzY6WArBao6Q False
+448.200 Current locale id en-US timezone offset 9
+449.183 safety on: invuln enabling: True
+449.183 SetClientUIState PlayingGame from PlaneSelection
+449.183 Starting conversation tut_01_start
+449.183 safety on: modal conversation enabling: False
+449.183 stuck on: modal conversation enabling: True
+449.248 Insta switching canyonFloor from  True
+450.283 Server ServerSays : /squad_active_quest/tut_01
+454.167 safety off: invuln
+456.183 quests: ClientChooseGuidanceTarget 343
+464.088 stuck off: modal conversation
+464.088 stuck disabled
+464.088 quests: Swap guidance target [trainA01 UnitScript 343] 343 prev  0
+464.088 quests: Setup guidance target 48530 464.088  [trainA01 UnitScript 343] 343 hash 1070180468
+465.234 Switching beach from canyonFloor False
+467.100 safety off: modal conversation
+467.100 safety disabled
+469.767 Server ServerSays : /brag/brag_enemy/1986381276/centipede01
+472.467 Server ServerSays : __TR__/ui/squad_player_left/1986381276
+472.467 Server ServerSays : __TR__/ui/squad_new_leader/Ninano
+476.217 Server ServerSays : __TR__/ui/squad_player_left/ExtraHostile
+483.700 Auto equipping better item 943812218:machinegun_3:IADhVb7Kzq6BysSN84MSsQ: ac 1 u 0
+496.200 Server ServerSays : /brag/brag_enemy/歐陽叡雪/wraith
+497.400 UTC timestamp now is 2020-03-31 11:21:49.779
+499.900 quests: ClientChooseGuidanceTarget 919
+499.900 quests: ClientReceivePlayerQuests quests=2(+0), prevQuests=0(+0), completedOutcomes=0
+499.929 quests: Swap guidance target  0 prev [trainA01 UnitScript 343] 343
+499.929 quests: Discard guidance target 50143 499.9289 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 343 hash 1070180468
+500.040 quests: Swap guidance target [trainA01 UnitScript 919] 919 prev  0
+500.040 quests: Setup guidance target 50146 500.0396  [trainA01 UnitScript 919] 919 hash -1083973060
+510.663 Switching canyonFloor from beach False
+512.691 GC; Frame Time 32.585 ms
+517.633 Server ServerSays : /brag/brag_enemy/SaltedHiro/tank
+518.875 Switching lowlands3 from canyonFloor False
+520.890 Switching canyonFloor from lowlands3 False
+530.088 Switching beach from canyonFloor False
+532.312 Switching canyonFloor from beach False
+535.700 quests: ClientReceivePlayerQuests quests=2(+0), prevQuests=0(+0), completedOutcomes=0
+536.417 Server ServerSays : /instaloot_currency/iron/60
+536.417 quests: ClientReceivePlayerActiveQuest 
+536.417 quests: ClientChooseGuidanceTarget 0
+536.417 quests: ClientReceiveQuestCompletionInfo tut_01 1 1
+536.417 Starting conversation tut_01_complete
+536.417 safety on: modal conversation enabling: True
+536.417 stuck on: modal conversation enabling: True
+536.417 quests: ClientReceivePlayerQuests quests=1(-1), prevQuests=1(+1), completedOutcomes=1
+536.448 quests: Discard guidance target 51186 536.4479 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 919 hash -1083973060
+536.448 quests: Swap guidance target  0 prev [trainA01 UnitScript 919] 919
+536.800 Server ServerSays : __TR__/ui/squad_no_active_quest
+536.800 Server ServerSays : __TR__/ui/squad_finished
+537.700 Server ServerSays : __TR__/ui/squad_player_joined/ExtraHostile
+543.053 stuck off: modal conversation
+543.053 stuck disabled
+546.067 safety off: modal conversation
+546.067 safety disabled
+548.560 Switching beach from canyonFloor False
+552.135 Switching canyonFloor from beach False
+557.425 UTC timestamp now is 2020-03-31 11:22:49.805
+558.018 Switching beach from canyonFloor False
+558.517 Auto equipping better item -1089087639:armor_3:IADhVb98RmfpyOSH5BnSOQ: ac 0 u 0
+570.533 Server ServerSays : /brag/brag_enemy/2357559562/navileader
+576.033 Server ServerSays : /brag/brag_enemy/michy2low/shmupblimp3
+588.711 GC; Frame Time 33.6037 ms
+590.383 ClientProximityChat 1144 歐陽叡雪  2 NADhUbXLiv6DGJgo7Mi2Jg AnimalBuds
+600.283 ClientProximityChat 527 GPseop2  1  
+600.467 ClientProximityChat 527 GPseop2  1  
+601.383 ClientProximityChat 527 GPseop2  1  
+607.067 ClientProximityChat 527 GPseop2  1  
+607.646 Switching canyonFloor from beach False
+608.250 ClientProximityChat 527 GPseop2  1  
+611.232 Switching lowlands2 from canyonFloor False
+614.635 Switching canyonFloor from lowlands2 False
+617.452 UTC timestamp now is 2020-03-31 11:23:49.832
+621.303 Switching lowlands2 from canyonFloor False
+629.800 safety on: tp complete enabling: True
+629.800 disabling firing: tp complete
+629.800 teleportNextFrame (56.7, 10.4, 0.0)
+629.817 teleportNextFrame (56.7, 10.4, 0.0)
+629.828 Switching lowlands3 from lowlands2 True
+629.833 teleportNextFrame (56.7, 10.5, 0.0)
+629.850 teleportNextFrame (56.7, 10.5, 0.0)
+629.867 teleportNextFrame (56.7, 10.6, 0.0)
+629.883 teleportNextFrame (56.7, 10.6, 0.0)
+629.900 teleportNextFrame (56.7, 10.6, 0.0)
+629.917 teleportNextFrame (56.7, 10.7, 0.0)
+629.933 teleportNextFrame (56.7, 10.7, 0.0)
+629.950 teleportNextFrame (56.7, 10.8, 0.0)
+629.967 teleportNextFrame (56.7, 10.8, 0.0)
+629.983 teleportNextFrame (56.7, 10.9, 0.0)
+630.000 teleportNextFrame (56.7, 10.9, 0.0)
+630.017 teleportNextFrame (56.6, 11.0, 0.0)
+630.033 teleportNextFrame (56.6, 11.0, 0.0)
+630.050 teleportNextFrame (56.6, 11.1, 0.0)
+630.067 teleportNextFrame (56.6, 11.1, 0.0)
+630.083 teleportNextFrame (56.6, 11.2, 0.0)
+630.100 teleportNextFrame (56.6, 11.2, 0.0)
+630.117 teleportNextFrame (56.6, 11.3, 0.0)
+630.133 teleportNextFrame (56.6, 11.3, 0.0)
+630.150 teleportNextFrame (56.6, 11.4, 0.0)
+630.167 teleportNextFrame (56.6, 11.4, 0.0)
+630.183 teleportNextFrame (56.6, 11.4, 0.0)
+630.200 teleportNextFrame (56.6, 11.5, 0.0)
+630.217 teleportNextFrame (56.6, 11.5, 0.0)
+630.233 teleportNextFrame (56.6, 11.6, 0.0)
+630.250 teleportNextFrame (56.7, 11.5, 0.0)
+630.267 teleportNextFrame (56.8, 11.3, 0.0)
+630.283 teleportNextFrame (57.0, 11.1, 0.0)
+630.300 teleportNextFrame (57.3, 10.9, 0.0)
+630.317 teleportNextFrame (57.6, 10.6, 0.0)
+630.333 teleportNextFrame (57.9, 10.3, 0.0)
+630.350 teleportNextFrame (58.3, 9.9, 0.0)
+630.367 teleportNextFrame (58.6, 9.6, 0.0)
+630.383 teleportNextFrame (58.9, 9.2, 0.0)
+630.400 teleportNextFrame (59.2, 8.9, 0.0)
+630.417 teleportNextFrame (59.4, 8.6, 0.0)
+630.433 teleportNextFrame (59.7, 8.3, 0.0)
+630.450 teleportNextFrame (59.8, 8.1, 0.0)
+630.467 teleportNextFrame (59.9, 7.9, 0.0)
+630.483 teleportNextFrame (60.0, 7.7, 0.0)
+630.500 teleportNextFrame (60.1, 7.6, 0.0)
+630.517 teleportNextFrame (60.1, 7.4, 0.0)
+630.533 teleportNextFrame (60.1, 7.4, 0.0)
+630.550 teleportNextFrame (60.1, 7.3, 0.0)
+630.567 teleportNextFrame (60.1, 7.2, 0.0)
+630.583 teleportNextFrame (60.1, 7.2, 0.0)
+630.600 teleportNextFrame (60.1, 7.1, 0.0)
+630.617 teleportNextFrame (60.1, 7.1, 0.0)
+630.633 teleportNextFrame (60.1, 7.1, 0.0)
+630.650 teleportNextFrame (60.1, 7.1, 0.0)
+630.667 teleportNextFrame (60.1, 7.1, 0.0)
+630.683 teleportNextFrame (60.1, 7.1, 0.0)
+630.700 teleportNextFrame (60.2, 7.1, 0.0)
+630.717 teleportNextFrame (60.2, 7.1, 0.0)
+630.733 teleportNextFrame (60.3, 7.1, 0.0)
+630.750 teleportNextFrame (60.3, 7.0, 0.0)
+630.767 teleportNextFrame (60.4, 7.0, 0.0)
+630.783 teleportNextFrame (60.4, 7.0, 0.0)
+630.800 teleportNextFrame (60.5, 7.0, 0.0)
+631.837 Switching lowlands2 from lowlands3 False
+632.817 enabling firing: tp complete
+633.833 safety off: tp complete
+633.833 safety disabled
+634.700 Server ServerSays : /pilot_levelup/3
+641.100 Server ServerSays : __TR__/ui/squad_player_joined/17685822508
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.561 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.586 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.616 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.742 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.771 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.790 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.806 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.821 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.832 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+641.848 SetupUsername GPseop2 CFgFfS-4AaQAcRtMxcgz6w
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+642.550 Server ServerSays : __TR__/ui/squad_player_joined/衣冠禽兽丶
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+647.017 Server ServerSays : __TR__/ui/squad_player_left/ExtraHostile
+647.483 Server ServerSays : You unlocked Paladin
+650.221 GC; Frame Time 45.072 ms
+651.011 Switching lowlands3 from lowlands2 False
+655.733 Server ServerSays : __TR__/ui/squad_player_joined/ExtraHostile
+656.567 ClientProximityChat 527 GPseop2  1  
+657.376 Switching lowlands2 from lowlands3 False
+662.867 ClientProximityChat 1144 歐陽叡雪  2 NADhUbXLiv6DGJgo7Mi2Jg AnimalBuds
+665.583 Server ServerSays : /brag/brag_enemy/Pinkbuffy/hoppertwoleader
+669.550 ClientProximityChat 527 GPseop2  1  
+669.567 Server ServerSays : __TR__/ui/squad_player_joined/麦克雷枪手
+669.867 ClientProximityChat 527 GPseop2  1  
+672.817 Server ServerSays : /pilot_levelup/4
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+EXC: NullReferenceException: Object reference not set to an instance of an object
+UnitStatsDisplay.UpdateCurrentUnits () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+UnitStatsDisplay.LateUpdate () (at <a3c8114b47494931ad9bb46c6f455f71>:0)
+
+677.478 UTC timestamp now is 2020-03-31 11:24:49.860
+688.250 Server ServerSays : __TR__/ui/squad_player_joined/512234448
+694.567 Server ServerSays : __TR__/ui/squad_player_left/ExtraHostile
+698.033 Server ServerSays : __TR__/ui/squad_player_joined/Uteeq
+705.133 ClientProximityChat 527 GPseop2  1  
+710.567 Server ServerSays : __TR__/ui/squad_player_joined/ExtraHostile
+712.717 ClientProximityChat 527 GPseop2  1  
+720.339 GC; Frame Time 37.6607 ms
+722.400 ClientProximityChat 2078 衣冠禽兽丶  1  
+724.300 ClientProximityChat 2078 衣冠禽兽丶  1  
+725.400 ClientProximityChat 2078 衣冠禽兽丶  1  
+727.000 ClientProximityChat 2078 衣冠禽兽丶  1  
+728.317 ClientProximityChat 527 GPseop2  1  
+729.217 ClientProximityChat 527 GPseop2  1  
+737.499 UTC timestamp now is 2020-03-31 11:25:49.879
+758.067 ClientProximityChat 3132 Uteeq  2  
+758.867 ClientProximityChat 3132 Uteeq  1  
+761.800 Server ServerSays : /brag/brag_enemy/Axels/angel2
+774.283 Server ServerSays : /brag/brag_enemy/michy2low/flakboss
+781.133 ClientProximityChat 2078 衣冠禽兽丶  4  
+787.983 Server ServerSays : __TR__/ui/squad_player_joined/Viod
+792.167 Server ServerSays : __TR__/ui/squad_player_left/ExtraHostile
+797.512 UTC timestamp now is 2020-03-31 11:26:49.892
+801.433 ClientProximityChat 3529 1277463092  1 NADhUbXLiv6DGJgo7Mi2Jg AnimalBuds
+801.617 Server ServerSays : /brag/brag_enemy/歐陽叡雪/hoppertwoleader
+807.002 Switching canyonFloor from lowlands2 False
+808.090 GC; Frame Time 33.6022 ms
+809.200 Server ServerSays : /brag/brag_enemy/麦克雷枪手/drone
+813.267 ClientProximityChat 2078 衣冠禽兽丶  1  
+813.783 ClientProximityChat 2078 衣冠禽兽丶  1  
+814.067 ClientProximityChat 2078 衣冠禽兽丶  1  
+814.650 Server ServerSays : __TR__/ui/squad_player_left/麦克雷枪手
+817.187 Switching midlands from canyonFloor False
+819.650 Server ServerSays : __TR__/ui/squad_player_joined/ExtraHostile
+821.150 Server ServerSays : __TR__/ui/squad_player_joined/R1onLee
+824.750 ClientProximityChat 2078 衣冠禽兽丶  1  
+827.649 Switching canyonFloor from midlands False
+831.015 Switching lowlands2 from canyonFloor False
+833.697 Switching canyonFloor from lowlands2 False
+833.950 ClientProximityChat 3529 1277463092  1 NADhUbXLiv6DGJgo7Mi2Jg AnimalBuds
+835.350 ClientProximityChat 3529 1277463092  1 NADhUbXLiv6DGJgo7Mi2Jg AnimalBuds
+835.712 Switching lowlands2 from canyonFloor False
+836.717 ClientProximityChat 3529 1277463092  1 NADhUbXLiv6DGJgo7Mi2Jg AnimalBuds
+837.333 Server ServerSays : __TR__/ui/squad_player_left/ExtraHostile
+845.586 Switching canyonFloor from lowlands2 False
+848.950 Server ServerSays : __TR__/ui/squad_player_joined/ExtraHostile
+849.167 Server ServerSays : /brag/brag_enemy/Yamate/robo
+850.228 Switching lowlands2 from canyonFloor False
+851.450 Auto equipping better item -1985663270:damageboost_blast_3:IADhVcI2rOpjK_VidCjq_Q: ac 1 u 0
+853.640 Switching canyonFloor from lowlands2 False
+854.250 safety on: dash back enabling: True
+854.383 safety off: dash back
+854.383 safety disabled
+855.267 safety on: dash back enabling: True
+855.400 safety off: dash back
+855.400 safety disabled
+855.656 Switching lowlands2 from canyonFloor False
+856.283 safety on: dash back enabling: True
+856.417 safety off: dash back
+856.417 safety disabled
+857.300 safety on: dash back enabling: True
+857.433 safety off: dash back
+857.433 safety disabled
+857.535 UTC timestamp now is 2020-03-31 11:27:49.916
+859.633 Server ServerSays : /brag/brag_enemy/2913719418/hoppertwoleader
+859.900 ClientProximityChat 527 GPseop2  1  
+860.173 Switching canyonFloor from lowlands2 False
+861.333 ClientProximityChat 527 GPseop2  1  
+861.433 Server ServerSays : /brag/brag_enemy/Ducifer/broadside
+861.917 ClientProximityChat 527 GPseop2  1  
+862.083 ClientProximityChat 527 GPseop2  1  
+862.187 Switching lowlands2 from canyonFloor False
+863.300 Server ServerSays : __TR__/ui/squad_player_left/ExtraHostile
+864.200 Switching canyonFloor from lowlands2 False
+864.850 safety on: dash back enabling: True
+864.983 safety off: dash back
+864.983 safety disabled
+867.967 ClientProximityChat 527 GPseop2  1  
+867.984 Switching lowlands2 from canyonFloor False
+870.205 Switching canyonFloor from lowlands2 False
+870.417 ClientProximityChat 527 GPseop2  2  
+873.816 Switching lowlands2 from canyonFloor False
+873.989 GC; Frame Time 32.8264 ms
+876.433 ClientProximityChat 2078 衣冠禽兽丶  1  
+879.273 Switching canyonFloor from lowlands2 False
+879.633 ClientProximityChat 2078 衣冠禽兽丶  1  
+880.117 ClientProximityChat 2078 衣冠禽兽丶  1  
+881.117 ClientProximityChat 2078 衣冠禽兽丶  1  
+883.150 safety on: dash back enabling: True
+883.283 safety off: dash back
+883.283 safety disabled
+885.167 safety on: dash back enabling: True
+885.250 Server ServerSays : /brag/brag_enemy/cantlove/thiefturretstrong
+885.300 safety off: dash back
+885.300 safety disabled
+887.236 Switching lowlands2 from canyonFloor False
+888.233 safety on: dash back enabling: True
+888.367 safety off: dash back
+888.367 safety disabled
+891.917 ClientProximityChat 527 GPseop2  2  
+893.433 ClientProximityChat 527 GPseop2  1  
+894.433 ClientProximityChat 527 GPseop2  1  
+894.717 ClientProximityChat 527 GPseop2  1  
+894.933 ClientProximityChat 527 GPseop2  1  
+896.167 Switching canyonFloor from lowlands2 False
+896.433 ClientProximityChat 527 GPseop2  1  
+903.552 Switching lowlands2 from canyonFloor False
+908.683 safety on: dash back enabling: True
+908.817 safety off: dash back
+908.817 safety disabled
+911.917 Switching canyonFloor from lowlands2 False
+913.932 Switching lowlands2 from canyonFloor False
+916.258 Switching canyonFloor from lowlands2 False
+917.546 UTC timestamp now is 2020-03-31 11:28:49.925
+918.273 Switching lowlands2 from canyonFloor False
+921.430 Switching canyonFloor from lowlands2 False
+925.395 Switching midlands from canyonFloor False
+928.416 Switching canyonFloor from midlands False
+930.000 Server ServerSays : __TR__/ui/squad_player_joined/352782268
+930.167 Server ServerSays : __TR__/ui/squad_player_left/352782268
+933.700 Switching midlands from canyonFloor False
+935.567 ClientProximityChat 2078 衣冠禽兽丶  1  
+936.067 Server ServerSays : /brag/brag_enemy/Uteeq/podleader
+938.500 Server ServerSays : __TR__/ui/squad_player_joined/352782268
+941.567 ClientProximityChat 2110 Garick  2  
+941.800 Server ServerSays : /brag/brag_enemy/Garick/dragonmama
+946.467 Server ServerSays : __TR__/ui/squad_player_left/Uteeq
+947.924 GC; Frame Time 15.4928 ms
+951.239 Switching midlands2 from midlands False
+955.273 Switching midlands from midlands2 False
+956.733 ClientProximityChat 527 GPseop2  2  
+960.083 Server ServerSays : __TR__/ui/squad_finished
+962.167 Server ServerSays : /brag/brag_enemy/Ninano/zombiequeen
+967.750 Server ServerSays : __TR__/ui/squad_player_left/Ninano
+967.750 Server ServerSays : __TR__/ui/squad_new_leader/LONGTIME
+968.050 Switching midlands2 from midlands False
+976.317 ClientProximityChat 2078 衣冠禽兽丶  1  
+977.554 UTC timestamp now is 2020-03-31 11:29:49.937
+981.098 Switching midlands from midlands2 False
+982.933 ClientProximityChat 2078 衣冠禽兽丶  1  
+983.179 Switching midlands2 from midlands False
+985.223 Switching midlands from midlands2 False
+987.433 ClientProximityChat 2078 衣冠禽兽丶  1  
+987.473 Switching midlands2 from midlands False
+997.150 Server ServerSays : /pilot_levelup/5
+997.525 Switching midlands from midlands2 False
+1001.444 Switching midlands2 from midlands False
+1023.331 GC; Frame Time 51.2364 ms
+1030.917 Server ServerSays : __TR__/ui/squad_player_left/512234448
+1035.850 ClientProximityChat 527 GPseop2  2  
+1036.050 ClientProximityChat 527 GPseop2  2  
+1036.633 ClientProximityChat 527 GPseop2  2  
+1036.633 ClientProximityChat 527 GPseop2  2  
+1037.595 UTC timestamp now is 2020-03-31 11:30:49.978
+1037.950 ClientProximityChat 527 GPseop2  1  
+1038.133 ClientProximityChat 527 GPseop2  1  
+1038.383 ClientProximityChat 527 GPseop2  1  
+1040.367 ClientProximityChat 527 GPseop2  1  
+1042.750 ClientProximityChat 2078 衣冠禽兽丶  1  
+1050.583 ClientProximityChat 2078 衣冠禽兽丶  1  
+1067.459 Switching midlands3 from midlands2 False
+1073.200 Server ServerSays : /brag/brag_enemy/Viod/hurtsnake
+1079.183 Server ServerSays : /brag/brag_enemy/17685822508/pulser
+1080.050 Server ServerSays : /brag/brag_enemy/352782268/squid
+1082.767 ClientProximityChat 2078 衣冠禽兽丶  1  
+1082.883 Server ServerSays : __TR__/ui/squad_player_left/17685822508
+1084.217 ClientProximityChat 2078 衣冠禽兽丶  1  
+1084.950 ClientProximityChat 2078 衣冠禽兽丶  1  
+1088.150 ClientProximityChat 2078 衣冠禽兽丶  1  
+1090.719 GC; Frame Time 48.1096 ms
+1097.417 ClientProximityChat 2078 衣冠禽兽丶  1  
+1097.619 UTC timestamp now is 2020-03-31 11:31:49.999
+1097.750 Server ServerSays : __TR__/ui/squad_player_left/352782268
+1101.117 ClientProximityChat 8036 evilth trainA01 3  
+1107.433 Server ServerSays : __TR__/ui/squad_player_left/Viod
+1109.166 Switching gargantuaboss from midlands3 False
+1113.367 ClientProximityChat 527 GPseop2  2  
+1113.783 ClientProximityChat 527 GPseop2  1  
+1113.983 ClientProximityChat 527 GPseop2  1  
+1114.167 ClientProximityChat 527 GPseop2  1  
+1114.350 safety on: dash back enabling: True
+1114.483 safety off: dash back
+1114.483 safety disabled
+1115.700 ClientProximityChat 527 GPseop2  1  
+1116.367 ClientProximityChat 527 GPseop2  1  
+1125.000 Server ServerSays : /brag/brag_enemy/LONGTIME/gargantua
+1130.167 Server ServerSays : __TR__/ui/squad_player_left/LONGTIME
+1130.167 Server ServerSays : __TR__/ui/squad_new_leader/GPseop2
+1132.983 Server ServerSays : /brag/brag_enemy/R1onLee/gargantua
+1136.767 ClientProximityChat 2078 衣冠禽兽丶  1  
+1143.760 OnPlayerPlaneDied 527 DestroyedFromDamage HADhVbwBwfZzY6WArBao6Q
+1143.760 SetClientUIState StaringAtDeathLocation from PlayingGame
+1143.760 OnPlayerPlaneDied 527 DestroyedFromDamage 
+1144.067 Server ServerSays : /brag/brag_enemy/GPseop2/gargantua
+Warn: 1144.779 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+Warn: 1145.120 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+Warn: 1145.461 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+1145.867 Server ServerSays : /brag/brag_enemy/衣冠禽兽丶/gargantua
+1148.306 EndClientUIState StaringAtDeathLocation
+1148.306 SetClientUIState AskToReturnToNexus from StaringAtDeathLocation
+1149.267 Switching to server RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1004313086]
+1149.267 Disconnect From Server Switching to other server
+1149.267 Connection Attempt Cleared
+1149.283 Client disconnected from server 9D485BF68D1F88D2 : Switching to other server
+1149.283 Save friends to GPseop2_friendslist
+1149.283 ResetConnectionState
+1149.287 GC; Frame Time 101.7688 ms
+1149.287 Switching  from gargantuaboss False
+1149.287 Joining Status status_joining_server 
+1149.287 LoginThenJoinServer  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1004313086]
+1149.287 SetClientUIState LoggingIn from Initial
+1149.287 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+1149.287 Connecting to server  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1004313086]
+1149.287 Load friends from GPseop2_friendslist
+1149.287 EndClientUIState LoggingIn
+1149.287 SetClientUIState JoiningServer from LoggingIn
+1149.287 Clearing ambient effects
+1149.300 Client joined server 3E9A11DD767D18F1 local 4D9FD87E6BEBC814
+1149.300 RegisterServerPlayer 3E9A11DD767D18F1
+1149.300 RegisterPlayer 4D9FD87E6BEBC814
+1149.300 AuthenticatePlayer
+1149.797 Network problem report NORMAL 1585654361 RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 10/60 tags: world fields: {} hash: 2004712622] disconnected from game server: Switching to other server
+1154.583 Loading once_keys: ,enterisland,tutorial_sharedXP,tutorial_coop,teleport_firsthint,chat_firsthint,teleported,tutorial_autoequip
+1154.583 Loading timeouts: {}
+1154.583 Connection Attempt Cleared
+1154.583 Welcome from 3E9A11DD767D18F1 Nexus GFec-zsG83gAMoME4xwiAg Rebel City 1 Nexus PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2) host space 236978176
+1154.583 Client welcome Nexus 12 650 3E9A11DD767D18F1 236978176 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2)
+1154.583 Reassigning host space from 31457280 to 236978176
+1154.583 quests: QuestsOnWelcome quests=1, prevQuests=1
+1154.583 EndClientUIState JoiningServer
+1154.583 SetClientUIState EarlyAccessMessage from JoiningServer
+1154.583 EndClientUIState EarlyAccessMessage
+1154.583 SetClientUIState EventsAndNews from EarlyAccessMessage
+1154.583 SetClientUIState PlaneSelection from EventsAndNews
+1154.583 Viewport update mode NEXUS
+1154.583 Current locale id en-US timezone offset 9
+1154.583 ClientReceiveVagueCareerRewards VagueCareerReward(career_reward_storage_1, CareerRewardCondition(8, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_hangar_1, CareerRewardCondition(12, ), [QuestRewardData(AccountItem, hangar_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_2, CareerRewardCondition(22, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_3, CareerRewardCondition(36, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_4, CareerRewardCondition(50, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_5, CareerRewardCondition(66, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_6, CareerRewardCondition(84, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_7, CareerRewardCondition(101, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_8, CareerRewardCondition(120, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_9, CareerRewardCondition(140, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_10, CareerRewardCondition(160, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_11, CareerRewardCondition(180, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_12, CareerRewardCondition(200, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+1154.730 Insta switching nexus from  True
+1154.967 quests: ClientReceiveGiverQuests tavern 1
+1154.967 quests: ClientReceiveGiverQuests crafter 379
+1157.382 UTC timestamp now is 2020-03-31 11:32:50.037
+1160.298 Plane selection result HADhVbwBwfZzY6WArBao6Q True
+1161.650 safety on: invuln enabling: True
+1161.650 SetClientUIState PlayingGame from PlaneSelection
+1161.666 Starting conversation intro-first-crash
+1161.666 safety on: modal conversation enabling: False
+1161.666 stuck on: modal conversation enabling: True
+1166.633 safety off: invuln
+1169.692 stuck off: modal conversation
+1169.692 stuck disabled
+1172.700 safety off: modal conversation
+1172.700 safety disabled
+1173.117 ClientProximityChat 1282 衣冠禽兽丶  1  
+1179.034 Starting conversation intro-hangar
+1179.034 safety on: modal conversation enabling: True
+1179.034 stuck on: modal conversation enabling: True
+1214.391 stuck off: modal conversation
+1214.391 stuck disabled
+1217.392 UTC timestamp now is 2020-03-31 11:33:50.048
+1217.400 safety off: modal conversation
+1217.400 safety disabled
+1218.684 Plane Selection Canceled
+1219.923 GC; Frame Time 37.607 ms
+1223.954 Switching overworld from nexus False
+1225.667 quests: ClientReceiveGiverQuests tavern 1
+1225.697 Starting conversation intro-pub
+1225.697 safety on: modal conversation enabling: True
+1225.697 stuck on: modal conversation enabling: True
+1225.883 quests: ClientReceiveQuestRewards Q-dailyreward_Tuesday-i-857942705 1
+1225.978 Switching nexus from overworld False
+1229.918 stuck off: modal conversation
+1229.918 stuck disabled
+1230.517 quests: ClientReceiveQuestRewards tut_campaign 0
+1232.933 safety off: modal conversation
+1232.933 safety disabled
+1236.550 quests: ClientReceiveGiverQuests tavern 1
+1256.417 quests: ClientReceiveGiverQuests crafter 379
+1261.717 ClientProximityChat 1309 ExtraHostile oof i can't do anything 0  
+1266.966 Switching overworld from nexus False
+1268.733 quests: ClientReceiveGiverQuests tavern 1
+1268.969 Switching nexus from overworld False
+1274.653 Switching overworld from nexus False
+1276.984 UTC timestamp now is 2020-03-31 11:34:50.087
+1278.367 Switching nexus from overworld False
+1279.633 quests: ClientReceiveGiverQuests tavern 1
+1290.943 Switching overworld from nexus False
+1293.318 Switching nexus from overworld False
+1295.319 Switching overworld from nexus False
+1297.319 Switching nexus from overworld False
+1302.451 GC; Frame Time 21.2756 ms
+1304.537 Starting conversation intro-storage
+1304.537 safety on: modal conversation enabling: True
+1304.537 stuck on: modal conversation enabling: True
+1321.144 stuck off: modal conversation
+1321.144 stuck disabled
+1324.150 safety off: modal conversation
+1324.150 safety disabled
+1325.583 Switching overworld from nexus False
+1326.850 quests: ClientReceiveGiverQuests crafter 379
+1326.879 Starting conversation intro-crafting
+1326.879 safety on: modal conversation enabling: True
+1326.879 stuck on: modal conversation enabling: True
+1333.538 stuck off: modal conversation
+1333.538 stuck disabled
+1336.550 safety off: modal conversation
+1336.550 safety disabled
+1336.633 quests: ClientReceiveQuestRewards NEW_craft_strike_tesla_8 1
+1337.010 UTC timestamp now is 2020-03-31 11:35:50.112
+1341.567 quests: ClientReceiveQuestRewards NEW_fusion_armor_1 1
+1341.667 quests: ClientReceiveQuestRewards NEW_fusion_armor_2 1
+1342.950 quests: ClientReceiveQuestRewards NEW_fusion_armor_4 1
+Warn: 1349.875 Destroying a CoreControlGroup that is still connected -> automatically call PutAway
+Warn: 1351.445 Destroying a CoreControlGroup that is still connected -> automatically call PutAway
+Warn: 1353.010 Destroying a CoreControlGroup that is still connected -> automatically call PutAway
+Warn: 1355.228 Destroying a CoreControlGroup that is still connected -> automatically call PutAway
+1355.867 quests: ClientReceiveQuestCompletionInfo NEW_fusion_armor_2 0 1
+1355.867 quests: ClientReceivePlayerQuests quests=1(+0), prevQuests=2(+1), completedOutcomes=1
+1356.283 quests: ClientReceiveQuestRewards NEW_fusion_armor_3 1
+Warn: 1358.910 Destroying a CoreControlGroup that is still connected -> automatically call PutAway
+1359.117 quests: ClientReceiveQuestCompletionInfo NEW_fusion_armor_4 0 1
+1359.117 Auto equipping better item 79156245:armor_4:IADhVcb9vb55lcxFnV71cw: ac 0 u 0
+1359.117 quests: ClientReceivePlayerQuests quests=1(+0), prevQuests=3(+1), completedOutcomes=1
+1359.917 quests: ClientReceiveQuestRewards NEW_fusion_armor_5 1
+1363.967 quests: ClientReceiveQuestRewards NEW_craft_sniper_hawkeye_8 1
+1364.583 quests: ClientReceiveQuestRewards NEW_craft_sniper_side_8 1
+1367.533 quests: ClientReceiveQuestRewards NEW_craft_craft_nanite_copper 1
+1367.633 quests: ClientReceiveQuestRewards craft_craft_nanite_icedefense 1
+1370.967 quests: ClientReceiveQuestRewards NEW_craft_laser_moon_8 1
+1373.633 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_arenacube 1
+1373.750 quests: ClientReceiveQuestRewards NEW_craft_trail_meowza2_electric 1
+1374.333 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_octopus 1
+1374.750 quests: ClientReceiveQuestRewards NEW_craft_trail_combatsquares 1
+1376.283 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_vault 1
+1376.283 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_dragonsnakemaster 1
+1376.283 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_avatar 1
+1377.667 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_iceboss 1
+1377.867 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_phoenix 1
+1378.083 quests: ClientReceiveQuestRewards NEW_craft_trail_boss_smokeboss 1
+1378.283 quests: ClientReceiveQuestRewards NEW_craft_trail_combatcubes 1
+1378.717 quests: ClientReceiveQuestRewards NEW_craft_trail_student 1
+1382.250 GC; Frame Time 36.0502 ms
+1383.334 Switching nexus from overworld False
+1385.017 quests: ClientReceiveGiverQuests tavern 1
+1386.603 Switching overworld from nexus False
+1389.250 safety on: followup enabling: True
+1389.250 stuck on: followup enabling: True
+Warn: 1389.550 Duplicate mission MissionDataExtended[IsRemoved=False Data=MissionData[Id=PADhVZQF-dVR-UgooqmeUg ConfigId=DQ_CX_12LOW_unicorn_T2 SquadId=OADhVbWDbwpLPNjr9YrPNg PeopleJoined=0 Progress=0]] that we hide from the list.
+1389.850 quests: ClientReceiveQuestRewards Q-tut_02-i-0 0
+Warn: 1389.850 Duplicate mission MissionDataExtended[IsRemoved=False Data=MissionData[Id=PADhVZQF-dVR-UgooqmeUg ConfigId=DQ_CX_12LOW_unicorn_T2 SquadId=OADhVbWDbwpLPNjr9YrPNg PeopleJoined=0 Progress=0]] that we hide from the list.
+1390.150 quests: ClientReceiveQuestRewards Q-DQ_KB_berserker-i-352367649 13
+Warn: 1390.800 Duplicate mission MissionDataExtended[IsRemoved=False Data=MissionData[Id=PADhVZQF-dVR-UgooqmeUg ConfigId=DQ_CX_12LOW_unicorn_T2 SquadId=OADhVbWDbwpLPNjr9YrPNg PeopleJoined=0 Progress=0]] that we hide from the list.
+1390.800 quests: ClientReceiveQuestRewards Q-escort_02-i-1686252503 13
+Warn: 1392.933 Duplicate mission MissionDataExtended[IsRemoved=False Data=MissionData[Id=PADhVZQF-dVR-UgooqmeUg ConfigId=DQ_CX_12LOW_unicorn_T2 SquadId=OADhVbWDbwpLPNjr9YrPNg PeopleJoined=0 Progress=0]] that we hide from the list.
+1393.280 SetClientUIState JoiningMission from PlayingGame
+1393.280 Joining Status status_enter_mission 
+1393.473 stuck off: followup
+1393.473 stuck disabled
+1393.533 Waiting for server switch
+1394.117 Switching to server RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 17/60 tags: world fields: {} hash: -1549804113]
+1394.117 Disconnect From Server Switching to other server
+1394.117 Connection Attempt Cleared
+1394.150 Client disconnected from server 3E9A11DD767D18F1 : Switching to other server
+1394.150 Network problem report NORMAL 1585654607 RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1004313086] disconnected from game server: Switching to other server
+1394.150 Save friends to GPseop2_friendslist
+1394.150 ResetConnectionState
+1394.167 GC; Frame Time 132.5643 ms
+1394.167 Joining Status status_joining_server 
+1394.167 LoginThenJoinServer  RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 17/60 tags: world fields: {} hash: -1549804113]
+1394.167 SetClientUIState LoggingIn from Initial
+1394.167 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+1394.167 Connecting to server  RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 17/60 tags: world fields: {} hash: -1549804113]
+1394.167 Load friends from GPseop2_friendslist
+1394.167 EndClientUIState LoggingIn
+1394.167 SetClientUIState JoiningServer from LoggingIn
+1394.167 Clearing ambient effects
+1394.358 Switching  from overworld False
+1394.867 Client joined server 9D485BF68D1F88D2 local A0F7829DDDA0D485
+1394.867 RegisterServerPlayer 9D485BF68D1F88D2
+1394.867 RegisterPlayer A0F7829DDDA0D485
+1394.867 AuthenticatePlayer
+1396.746 UTC timestamp now is 2020-03-31 11:36:50.115
+1398.283 Server ServerSays : __TR__/ui/squad_player_joined/GPseop2
+1398.283 quests: ClientReceivePlayerQuests no local player! 2 3 0
+1398.283 quests: ClientChooseGuidanceTarget 0
+1398.283 quests: ClientReceivePlayerActiveQuest Q-escort_02-i-1686252503
+1398.283 quests: ClientReceivePlayerActiveQuest Q-escort_02-i-1686252503
+1398.283 quests: ClientChooseGuidanceTarget 0
+1398.283 Loading once_keys: ,enterisland,tutorial_sharedXP,tutorial_coop,teleport_firsthint,chat_firsthint,teleported,tutorial_autoequip,tutorial_first_crash,hangar_intro,tavern_intro,storage_intro,crafting_intro
+1398.283 Loading timeouts: {}
+1398.283 Connection Attempt Cleared
+1398.283 Welcome from 9D485BF68D1F88D2 World GFgFfH0b3awCzekZXhaVVA Merlin Island Basic PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2) host space 209715200
+1398.283 Client welcome Basic 12 907.5 9D485BF68D1F88D2 209715200 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2)
+1398.283 Reassigning host space from 236978176 to 209715200
+1398.283 quests: QuestsOnWelcome quests=2, prevQuests=3
+1398.283 EndClientUIState JoiningServer
+1398.283 SetClientUIState EarlyAccessMessage from JoiningServer
+1398.283 EndClientUIState EarlyAccessMessage
+1398.283 SetClientUIState EventsAndNews from EarlyAccessMessage
+1398.283 SetClientUIState PlaneSelection from EventsAndNews
+1398.283 Plane selection result HADhVbwBwfZzY6WArBao6Q False
+1398.283 Current locale id en-US timezone offset 9
+1399.233 safety on: invuln enabling: True
+1399.233 SetClientUIState PlayingGame from PlaneSelection
+1399.299 Insta switching midlands from  True
+1401.367 Server ServerSays : /squad_active_quest/escort_02
+1402.367 safety off: invuln
+1402.367 safety disabled
+1406.933 quests: ClientChooseGuidanceTarget 11749
+1406.954 quests: Swap guidance target [escort_02_escortmission UnitScript 11749] 11749 prev  0
+1406.954 quests: Setup guidance target 79015 1406.954  [escort_02_escortmission UnitScript 11749] 11749 hash 1605383910
+1407.387 Switching canyonFloor from midlands False
+1411.769 Switching midlands from canyonFloor False
+1414.033 Server ServerSays : __TR__/ui/squad_player_joined/lolkill250
+1417.750 Server ServerSays : /brag/brag_enemy/1277463092/dragonmama
+1418.957 Switching canyonFloor from midlands False
+1424.755 Switching midlands from canyonFloor False
+1437.600 Server ServerSays : __TR__/ui/squad_player_joined/锄丶禾
+1442.350 quests: ClientChooseGuidanceTarget 10577
+1442.369 quests: Swap guidance target  0 prev [escort_02_escortmission UnitScript 11749] 11749
+1442.369 quests: Discard guidance target 80037 1442.369 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 11749 hash 1605383910
+1442.446 quests: Swap guidance target [escort_02_master UnitScript 10577] 10577 prev  0
+1442.446 quests: Setup guidance target 80039 1442.446  [escort_02_master UnitScript 10577] 10577 hash 1592044150
+1445.467 quests: ClientChooseGuidanceTarget 0
+1445.498 quests: Discard guidance target 80119 1445.498 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 10577 hash 1592044150
+1445.498 quests: Swap guidance target  0 prev [escort_02_master UnitScript 10577] 10577
+1448.217 ClientProximityChat 10125 Crazzyyy  1  
+1450.050 ClientProximityChat 10125 Crazzyyy  1  
+1450.087 Switching canyonFloor from midlands False
+1452.127 Switching midlands from canyonFloor False
+1452.550 Server ServerSays : __TR__/ui/squad_player_left/KameKazi
+1454.217 quests: ClientChooseGuidanceTarget 12860
+1454.343 quests: Swap guidance target [escort_02_startbutton UnitScript 12860] 12860 prev  0
+1454.343 quests: Setup guidance target 80333 1454.343  [escort_02_startbutton UnitScript 12860] 12860 hash -2044660048
+1455.309 Switching canyonFloor from midlands False
+1456.746 UTC timestamp now is 2020-03-31 11:37:50.118
+1462.383 Server ServerSays : __TR__/ui/squad_player_left/MemeDaddy
+1462.383 Server ServerSays : __TR__/ui/squad_new_leader/锄丶禾
+1466.067 safety on: tp complete enabling: True
+1466.067 disabling firing: tp complete
+1466.067 teleportNextFrame (211.3, 284.0, 0.0)
+1466.077 Switching midlands3 from canyonFloor True
+1466.083 teleportNextFrame (211.3, 284.0, 0.0)
+1466.100 teleportNextFrame (211.3, 283.9, 0.0)
+1466.117 teleportNextFrame (211.3, 283.9, 0.0)
+1466.133 teleportNextFrame (211.2, 283.8, 0.0)
+1466.150 teleportNextFrame (211.2, 283.8, 0.0)
+1466.167 teleportNextFrame (211.2, 283.8, 0.0)
+1466.183 teleportNextFrame (211.1, 283.7, 0.0)
+1466.200 teleportNextFrame (211.1, 283.7, 0.0)
+1466.217 teleportNextFrame (211.1, 283.7, 0.0)
+1466.233 teleportNextFrame (211.1, 283.6, 0.0)
+1466.250 teleportNextFrame (211.0, 283.6, 0.0)
+1466.267 teleportNextFrame (211.0, 283.6, 0.0)
+1466.283 teleportNextFrame (211.0, 283.5, 0.0)
+1466.300 teleportNextFrame (211.0, 283.5, 0.0)
+1466.317 teleportNextFrame (210.9, 283.4, 0.0)
+1466.333 teleportNextFrame (210.9, 283.4, 0.0)
+1466.350 teleportNextFrame (210.9, 283.4, 0.0)
+1466.367 teleportNextFrame (210.9, 283.3, 0.0)
+1466.383 teleportNextFrame (210.8, 283.3, 0.0)
+1466.400 teleportNextFrame (210.8, 283.3, 0.0)
+1466.417 teleportNextFrame (210.8, 283.2, 0.0)
+1466.433 teleportNextFrame (210.7, 283.2, 0.0)
+1466.450 teleportNextFrame (210.7, 283.1, 0.0)
+1466.467 teleportNextFrame (210.7, 283.1, 0.0)
+1466.483 teleportNextFrame (210.7, 283.1, 0.0)
+1466.500 teleportNextFrame (210.6, 283.0, 0.0)
+1466.517 teleportNextFrame (210.6, 283.0, 0.0)
+1466.533 teleportNextFrame (210.6, 283.0, 0.0)
+1466.550 teleportNextFrame (210.6, 282.9, 0.0)
+1466.567 teleportNextFrame (210.5, 282.9, 0.0)
+1466.583 teleportNextFrame (210.5, 282.9, 0.0)
+1466.600 teleportNextFrame (210.5, 282.8, 0.0)
+1466.617 teleportNextFrame (210.4, 282.8, 0.0)
+1466.633 teleportNextFrame (210.4, 282.7, 0.0)
+1466.650 teleportNextFrame (210.4, 282.7, 0.0)
+1466.667 teleportNextFrame (210.4, 282.7, 0.0)
+1466.683 teleportNextFrame (210.3, 282.6, 0.0)
+1466.700 teleportNextFrame (210.3, 282.6, 0.0)
+1466.717 teleportNextFrame (210.3, 282.6, 0.0)
+1466.733 teleportNextFrame (210.3, 282.5, 0.0)
+1466.750 teleportNextFrame (210.2, 282.5, 0.0)
+1466.767 teleportNextFrame (210.2, 282.4, 0.0)
+1466.783 teleportNextFrame (210.2, 282.4, 0.0)
+1466.800 teleportNextFrame (210.1, 282.4, 0.0)
+1466.817 teleportNextFrame (210.1, 282.3, 0.0)
+1466.833 teleportNextFrame (210.1, 282.3, 0.0)
+1466.850 teleportNextFrame (210.1, 282.3, 0.0)
+1466.867 teleportNextFrame (210.0, 282.2, 0.0)
+1466.883 teleportNextFrame (210.0, 282.2, 0.0)
+1466.900 teleportNextFrame (210.0, 282.1, 0.0)
+1466.917 teleportNextFrame (210.0, 282.1, 0.0)
+1466.933 teleportNextFrame (209.9, 282.1, 0.0)
+1466.950 teleportNextFrame (209.9, 282.0, 0.0)
+1466.967 teleportNextFrame (209.9, 282.0, 0.0)
+1466.983 teleportNextFrame (209.9, 282.0, 0.0)
+1467.000 teleportNextFrame (209.8, 281.9, 0.0)
+1467.017 teleportNextFrame (209.8, 281.9, 0.0)
+1467.033 teleportNextFrame (209.8, 281.8, 0.0)
+1467.050 teleportNextFrame (209.7, 281.8, 0.0)
+1467.067 teleportNextFrame (209.7, 281.8, 0.0)
+1469.083 enabling firing: tp complete
+1472.067 safety off: tp complete
+1472.067 safety disabled
+1472.953 GC; Frame Time 25.9513 ms
+1473.150 Server ServerSays : /brag/brag_enemy/google20192003/advancer
+1476.433 safety on: tp complete enabling: True
+1476.433 disabling firing: tp complete
+1476.433 teleportNextFrame (-11.9, 213.4, 0.0)
+1476.450 teleportNextFrame (-11.9, 213.0, 0.0)
+1476.452 Switching  from midlands3 True
+1476.467 teleportNextFrame (-11.9, 212.6, 0.0)
+1476.483 teleportNextFrame (-11.9, 212.3, 0.0)
+1476.500 teleportNextFrame (-11.9, 212.0, 0.0)
+1476.517 teleportNextFrame (-11.8, 211.8, 0.0)
+1476.533 teleportNextFrame (-11.8, 211.6, 0.0)
+1476.550 teleportNextFrame (-11.8, 211.4, 0.0)
+1476.567 teleportNextFrame (-11.8, 211.2, 0.0)
+1476.583 safety off: tp complete
+1476.583 safety disabled
+1476.583 teleportNextFrame (-11.8, 211.1, 0.0)
+1476.600 teleportNextFrame (-11.8, 210.9, 0.0)
+1476.617 teleportNextFrame (-11.8, 210.8, 0.0)
+1476.633 teleportNextFrame (-11.8, 210.7, 0.0)
+1476.650 teleportNextFrame (-11.8, 210.6, 0.0)
+1476.667 teleportNextFrame (-11.8, 210.5, 0.0)
+1476.683 teleportNextFrame (-11.8, 210.4, 0.0)
+1476.700 teleportNextFrame (-11.8, 210.3, 0.0)
+1476.717 teleportNextFrame (-11.7, 210.2, 0.0)
+1476.733 teleportNextFrame (-11.7, 210.1, 0.0)
+1476.750 teleportNextFrame (-11.7, 210.0, 0.0)
+1476.767 teleportNextFrame (-11.7, 209.9, 0.0)
+1476.783 teleportNextFrame (-11.7, 209.8, 0.0)
+1476.800 teleportNextFrame (-11.7, 209.7, 0.0)
+1476.817 teleportNextFrame (-11.7, 209.6, 0.0)
+1476.833 teleportNextFrame (-11.7, 209.5, 0.0)
+1476.850 teleportNextFrame (-11.7, 209.4, 0.0)
+1476.865 Insta switching lowlands2 from  True
+1476.867 teleportNextFrame (-11.6, 209.3, 0.0)
+1476.883 teleportNextFrame (-11.6, 209.2, 0.0)
+1476.900 teleportNextFrame (-11.6, 209.1, 0.0)
+1476.917 teleportNextFrame (-11.6, 209.0, 0.0)
+1476.933 teleportNextFrame (-11.6, 208.9, 0.0)
+1476.950 teleportNextFrame (-11.6, 208.8, 0.0)
+1476.967 teleportNextFrame (-11.5, 208.7, 0.0)
+1476.983 teleportNextFrame (-11.5, 208.6, 0.0)
+1477.000 teleportNextFrame (-11.5, 208.5, 0.0)
+1477.017 teleportNextFrame (-11.5, 208.5, 0.0)
+1477.033 teleportNextFrame (-11.5, 208.4, 0.0)
+1477.050 teleportNextFrame (-11.4, 208.3, 0.0)
+1477.067 teleportNextFrame (-11.4, 208.2, 0.0)
+1477.083 teleportNextFrame (-11.4, 208.1, 0.0)
+1477.100 teleportNextFrame (-11.4, 208.0, 0.0)
+1477.117 teleportNextFrame (-11.4, 207.9, 0.0)
+1477.133 teleportNextFrame (-11.4, 207.8, 0.0)
+1477.150 teleportNextFrame (-11.3, 207.7, 0.0)
+1477.167 teleportNextFrame (-11.3, 207.6, 0.0)
+1477.183 teleportNextFrame (-11.3, 207.5, 0.0)
+1477.200 teleportNextFrame (-11.3, 207.4, 0.0)
+1477.217 teleportNextFrame (-11.3, 207.3, 0.0)
+1477.233 teleportNextFrame (-11.2, 207.2, 0.0)
+1477.250 teleportNextFrame (-11.2, 207.1, 0.0)
+1477.267 teleportNextFrame (-11.2, 207.0, 0.0)
+1477.283 teleportNextFrame (-11.2, 206.9, 0.0)
+1477.300 teleportNextFrame (-11.2, 206.8, 0.0)
+1477.317 teleportNextFrame (-11.1, 206.7, 0.0)
+1477.333 teleportNextFrame (-11.1, 206.6, 0.0)
+1477.350 teleportNextFrame (-11.1, 206.5, 0.0)
+1477.367 teleportNextFrame (-11.1, 206.4, 0.0)
+1477.383 teleportNextFrame (-11.1, 206.3, 0.0)
+1477.400 teleportNextFrame (-11.0, 206.2, 0.0)
+1477.417 teleportNextFrame (-11.0, 206.1, 0.0)
+1477.433 teleportNextFrame (-11.0, 206.0, 0.0)
+1479.450 enabling firing: tp complete
+1480.167 Server ServerSays : __TR__/ui/squad_player_left/google20192003
+1489.132 quests: Discard guidance target 81452 1489.132 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 12860 hash -2044660048
+1489.132 quests: Swap guidance target  0 prev [escort_02_startbutton UnitScript 12860] 12860
+1497.100 Server ServerSays : __TR__/ui/squad_player_joined/swzero
+1497.317 quests: ClientChooseGuidanceTarget 12859
+1497.416 quests: Swap guidance target [escort_02_master UnitScript 12859] 12859 prev  0
+1497.416 quests: Setup guidance target 81690 1497.416  [escort_02_master UnitScript 12859] 12859 hash -1482777086
+1505.317 quests: ClientChooseGuidanceTarget 13397
+1505.355 quests: Discard guidance target 81891 1505.355 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 12859 hash -1482777086
+1505.355 quests: Swap guidance target [escort_02_escortmission UnitScript 13397] 13397 prev [escort_02_master UnitScript 12859] 12859
+1505.355 quests: Setup guidance target 81891 1505.355  [escort_02_escortmission UnitScript 13397] 13397 hash 2140587352
+1506.767 Server ServerSays : /brag/brag_enemy/769329163/bonesnake01
+1515.667 ClientProximityChat 13569 KameKazi  1  
+1515.750 ClientProximityChat 13569 KameKazi  1  
+1515.967 ClientProximityChat 13569 KameKazi  1  
+1516.750 UTC timestamp now is 2020-03-31 11:38:50.122
+1519.604 Switching canyonFloor from lowlands2 False
+1520.967 Server ServerSays : __TR__/ui/squad_player_left/Ninano
+1521.467 ClientReceiveAbsenceOfRemotePlayerData CFgFehUaYGQCEs4qdMoT8g
+1521.467 ClientReceiveAbsenceOfRemotePlayerData CFgFehUaYGQCEs4qdMoT8g
+1521.467 ClientReceiveAbsenceOfRemotePlayerData CFgFehUaYGQCEs4qdMoT8g
+1521.467 ClientReceiveAbsenceOfRemotePlayerData CFgFehUaYGQCEs4qdMoT8g
+1522.065 Switching lowlands2 from canyonFloor False
+1524.738 Switching canyonFloor from lowlands2 False
+1528.401 Switching midlands2 from canyonFloor False
+1533.950 ClientProximityChat 12141 GPseop2  1  
+1535.433 Server ServerSays : /brag/brag_enemy/Orlaconark/flakleader
+1551.050 Server ServerSays : __TR__/ui/squad_new_leader/swzero
+1553.024 GC; Frame Time 50.0216 ms
+1553.133 Server ServerSays : /brag/brag_enemy/歐陽叡雪/robo
+1553.717 ClientProximityChat 14526   24938  
+1555.667 Server ServerSays : __TR__/ui/squad_player_joined/Garick
+1573.724 Switching midlands3 from midlands2 False
+1576.779 UTC timestamp now is 2020-03-31 11:39:50.153
+1588.067 ClientProximityChat 12141 GPseop2  2  
+1588.167 ClientProximityChat 12141 GPseop2  2  
+1588.367 ClientProximityChat 12141 GPseop2  2  
+1593.367 Server ServerSays : __TR__/ui/squad_player_joined/Lukeve
+1595.983 quests: ClientReceivePlayerQuests quests=2(+0), prevQuests=3(+0), completedOutcomes=0
+1596.367 Server ServerSays : /pilot_levelup/7
+1596.367 Server ServerSays : + 4800 XP
+1596.367 Server ServerSays : /instaloot_currency/iron/26
+1596.367 Server ServerSays : No space for Steel Armor, so sending to storage
+1596.367 quests: ClientReceiveQuestCompletionInfo Q-escort_02-i-1686252503 2 1
+1596.367 quests: ClientReceivePlayerQuests quests=1(-1), prevQuests=5(+2), completedOutcomes=1
+1596.367 quests: ClientChooseGuidanceTarget 0
+1596.367 quests: ClientReceivePlayerActiveQuest 
+1596.387 quests: Swap guidance target  0 prev [escort_02_escortmission UnitScript 13397] 13397
+1596.387 quests: Discard guidance target 84600 1596.387 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 13397 hash 2140587352
+1596.750 Server ServerSays : __TR__/ui/squad_leader_picks_followup/swzero
+1610.567 Server ServerSays : /brag/brag_enemy/769329163/berserker
+1612.733 Server ServerSays : __TR__/ui/squad_player_left/Crazzyyy
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1613.183 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+1615.983 Starting conversation intro-mulching
+1615.983 safety on: modal conversation enabling: True
+1615.983 stuck on: modal conversation enabling: False
+1617.517 Server ServerSays : __TR__/ui/squad_player_left/swzero
+1617.517 Server ServerSays : __TR__/ui/squad_new_leader/锄丶禾
+1618.017 ClientProximityChat 14778   24938  
+1618.717 Server ServerSays : __TR__/ui/squad_player_left/Garick
+1623.302 stuck off: modal conversation
+1623.302 stuck disabled
+1623.583 Server ServerSays : __TR__/ui/squad_player_left/锄丶禾
+1623.583 Server ServerSays : __TR__/ui/squad_new_leader/Lukeve
+1624.911 GC; Frame Time 28.4847 ms
+1626.317 safety off: modal conversation
+1626.317 safety disabled
+1627.383 Server ServerSays : __TR__/ui/squad_player_left/lolkill250
+1630.150 Not teleporting to onscreen target [walkerClassPlane PlayerScript 15414]
+1635.383 safety on: tp complete enabling: True
+1635.383 disabling firing: tp complete
+1635.383 teleportNextFrame (-178.5, 375.7, 0.0)
+1635.400 teleportNextFrame (-178.6, 375.8, 0.0)
+1635.417 teleportNextFrame (-178.7, 375.9, 0.0)
+1635.433 teleportNextFrame (-178.8, 376.0, 0.0)
+1635.450 teleportNextFrame (-178.9, 376.0, 0.0)
+1635.467 teleportNextFrame (-179.0, 376.1, 0.0)
+1635.483 teleportNextFrame (-179.1, 376.2, 0.0)
+1635.500 teleportNextFrame (-179.2, 376.2, 0.0)
+1635.517 teleportNextFrame (-179.2, 376.3, 0.0)
+1635.533 teleportNextFrame (-179.3, 376.4, 0.0)
+1635.550 teleportNextFrame (-179.4, 376.5, 0.0)
+1635.567 teleportNextFrame (-179.4, 376.6, 0.0)
+1635.583 teleportNextFrame (-179.5, 376.7, 0.0)
+1635.600 teleportNextFrame (-179.5, 376.8, 0.0)
+1635.617 teleportNextFrame (-179.5, 376.9, 0.0)
+1635.633 teleportNextFrame (-179.5, 377.1, 0.0)
+1635.650 teleportNextFrame (-179.5, 377.2, 0.0)
+1635.667 teleportNextFrame (-179.5, 377.3, 0.0)
+1635.683 teleportNextFrame (-179.4, 377.4, 0.0)
+1635.700 teleportNextFrame (-179.4, 377.5, 0.0)
+1635.717 teleportNextFrame (-179.3, 377.6, 0.0)
+1635.733 teleportNextFrame (-179.2, 377.7, 0.0)
+1635.750 teleportNextFrame (-179.2, 377.8, 0.0)
+1635.767 teleportNextFrame (-179.1, 377.8, 0.0)
+1635.783 teleportNextFrame (-179.0, 377.9, 0.0)
+1635.800 teleportNextFrame (-178.9, 378.0, 0.0)
+1635.817 teleportNextFrame (-178.8, 378.0, 0.0)
+1635.833 teleportNextFrame (-178.7, 378.1, 0.0)
+1635.850 teleportNextFrame (-178.6, 378.1, 0.0)
+1635.867 teleportNextFrame (-178.4, 378.1, 0.0)
+1635.883 teleportNextFrame (-178.3, 378.2, 0.0)
+1635.900 teleportNextFrame (-178.2, 378.2, 0.0)
+1635.917 teleportNextFrame (-178.1, 378.2, 0.0)
+1635.933 teleportNextFrame (-178.0, 378.2, 0.0)
+1635.950 teleportNextFrame (-177.9, 378.2, 0.0)
+1635.967 teleportNextFrame (-177.7, 378.2, 0.0)
+1635.983 teleportNextFrame (-177.6, 378.2, 0.0)
+1636.000 teleportNextFrame (-177.5, 378.1, 0.0)
+1636.017 teleportNextFrame (-177.4, 378.1, 0.0)
+1636.033 teleportNextFrame (-177.3, 378.0, 0.0)
+1636.050 teleportNextFrame (-177.2, 377.9, 0.0)
+1636.067 teleportNextFrame (-177.1, 377.9, 0.0)
+1636.083 teleportNextFrame (-177.1, 377.8, 0.0)
+1636.100 teleportNextFrame (-177.0, 377.7, 0.0)
+1636.117 teleportNextFrame (-176.9, 377.6, 0.0)
+1636.133 teleportNextFrame (-176.9, 377.5, 0.0)
+1636.150 teleportNextFrame (-176.8, 377.4, 0.0)
+1636.167 teleportNextFrame (-176.8, 377.3, 0.0)
+1636.183 teleportNextFrame (-176.8, 377.1, 0.0)
+1636.200 teleportNextFrame (-176.8, 377.0, 0.0)
+1636.217 teleportNextFrame (-176.7, 376.9, 0.0)
+1636.233 teleportNextFrame (-176.7, 376.8, 0.0)
+1636.250 teleportNextFrame (-176.8, 376.7, 0.0)
+1636.267 teleportNextFrame (-176.8, 376.6, 0.0)
+1636.283 teleportNextFrame (-176.8, 376.4, 0.0)
+1636.300 teleportNextFrame (-176.8, 376.3, 0.0)
+1636.317 teleportNextFrame (-176.9, 376.2, 0.0)
+1636.333 teleportNextFrame (-176.9, 376.1, 0.0)
+1636.350 teleportNextFrame (-176.9, 376.0, 0.0)
+1636.367 teleportNextFrame (-177.0, 375.9, 0.0)
+1636.383 teleportNextFrame (-177.1, 375.8, 0.0)
+1636.800 UTC timestamp now is 2020-03-31 11:40:50.171
+1638.400 enabling firing: tp complete
+1640.050 safety off: tp complete
+1640.050 safety disabled
+1640.650 Server ServerSays : /brag/brag_enemy/1277463092/broadside
+1645.750 Server ServerSays : /brag/brag/歐陽叡雪
+1661.100 Server ServerSays : __TR__/ui/squad_player_left/Pinkbuffy
+1663.017 ClientProximityChat 16348   24938  
+1696.821 UTC timestamp now is 2020-03-31 11:41:50.193
+1707.517 ClientProximityChat 12141 GPseop2  2  
+1707.733 ClientProximityChat 12141 GPseop2  2  
+1707.833 ClientProximityChat 12141 GPseop2  2  
+1708.633 ClientProximityChat 12141 GPseop2  2  
+1709.033 ClientProximityChat 12141 GPseop2  1  
+1709.044 Switching canyonFloor from midlands3 False
+1709.217 ClientProximityChat 12141 GPseop2  1  
+1709.433 ClientProximityChat 12141 GPseop2  1  
+1710.033 ClientProximityChat 12141 GPseop2  1  
+1711.933 ClientProximityChat 12141 GPseop2  1  
+1713.390 Switching highlands2 from canyonFloor False
+1714.183 OnPlayerPlaneDied 12141 DestroyedFromDamage HADhVbwBwfZzY6WArBao6Q
+1714.183 SetClientUIState StaringAtDeathLocation from PlayingGame
+1714.183 OnPlayerPlaneDied 12141 DestroyedFromDamage 
+1714.467 Server ServerSays : /brag/brag_enemy/GPseop2/hurtsnakeleader
+Warn: 1714.838 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+1714.886 GC; Frame Time 48.5048 ms
+Warn: 1715.150 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+Warn: 1715.462 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+1719.367 Server ServerSays : /brag/brag_enemy/Orlaconark/barrager
+1721.913 EndClientUIState StaringAtDeathLocation
+1721.913 SetClientUIState AskToReturnToNexus from StaringAtDeathLocation
+1723.750 Switching to server RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1421663056]
+1723.750 Disconnect From Server Switching to other server
+1723.750 Connection Attempt Cleared
+1723.783 Client disconnected from server 9D485BF68D1F88D2 : Switching to other server
+1723.783 Save friends to GPseop2_friendslist
+1723.783 ResetConnectionState
+1723.828 GC; Frame Time 161.6124 ms
+1723.828 Joining Status status_joining_server 
+1723.828 LoginThenJoinServer  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1421663056]
+1723.828 SetClientUIState LoggingIn from Initial
+1723.828 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+1723.828 Connecting to server  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1421663056]
+1723.828 Load friends from GPseop2_friendslist
+1723.828 EndClientUIState LoggingIn
+1723.828 SetClientUIState JoiningServer from LoggingIn
+1723.828 Clearing ambient effects
+1723.833 Client joined server 3E9A11DD767D18F1 local A1F72C019B2991DF
+1723.833 RegisterServerPlayer 3E9A11DD767D18F1
+1723.833 RegisterPlayer A1F72C019B2991DF
+1723.833 AuthenticatePlayer
+1724.033 Switching  from highlands2 False
+1724.456 Network problem report NORMAL 1585654937 RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 17/60 tags: world fields: {} hash: -1549804113] disconnected from game server: Switching to other server
+1726.600 Loading once_keys: ,enterisland,tutorial_sharedXP,tutorial_coop,teleport_firsthint,chat_firsthint,teleported,tutorial_autoequip,tutorial_first_crash,hangar_intro,tavern_intro,storage_intro,crafting_intro,tutorial_mulching
+1726.600 Loading timeouts: {}
+1726.600 Connection Attempt Cleared
+1726.600 Welcome from 3E9A11DD767D18F1 Nexus GFec-zsG83gAMoME4xwiAg Rebel City 1 Nexus PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2) host space 532676608
+1726.600 Client welcome Nexus 12 650 3E9A11DD767D18F1 532676608 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2)
+1726.600 Reassigning host space from 209715200 to 532676608
+1726.600 quests: QuestsOnWelcome quests=1, prevQuests=5
+1726.600 EndClientUIState JoiningServer
+1726.600 SetClientUIState EarlyAccessMessage from JoiningServer
+1726.600 EndClientUIState EarlyAccessMessage
+1726.600 SetClientUIState EventsAndNews from EarlyAccessMessage
+1726.600 SetClientUIState PlaneSelection from EventsAndNews
+1726.600 Viewport update mode NEXUS
+1726.600 Current locale id en-US timezone offset 9
+1726.600 ClientReceiveVagueCareerRewards VagueCareerReward(career_reward_storage_1, CareerRewardCondition(8, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_hangar_1, CareerRewardCondition(12, ), [QuestRewardData(AccountItem, hangar_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_2, CareerRewardCondition(22, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_3, CareerRewardCondition(36, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_4, CareerRewardCondition(50, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_5, CareerRewardCondition(66, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_6, CareerRewardCondition(84, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_7, CareerRewardCondition(101, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_8, CareerRewardCondition(120, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_9, CareerRewardCondition(140, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_10, CareerRewardCondition(160, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_11, CareerRewardCondition(180, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_12, CareerRewardCondition(200, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+1726.747 Insta switching nexus from  True
+1727.000 quests: ClientReceiveGiverQuests tavern 1
+1727.000 quests: ClientReceiveGiverQuests crafter 379
+1732.749 Plane selection result HADhVbwBwfZzY6WArBao6Q True
+1733.117 safety on: invuln enabling: True
+1733.117 SetClientUIState PlayingGame from PlaneSelection
+1738.100 safety off: invuln
+1738.100 safety disabled
+1744.394 Switching overworld from nexus False
+1746.417 Switching nexus from overworld False
+1747.183 quests: ClientReceiveGiverQuests tavern 1
+1749.968 Switching overworld from nexus False
+1756.574 UTC timestamp now is 2020-03-31 11:42:50.232
+1770.747 Switching nexus from overworld False
+1774.167 ClientProximityChat 1422 Whitethief1412 food tested dat can eat 3 nuke ball 0 NADfjKemPaOgdwjeYflNwg Bionicle
+1782.500 ClientProximityChat 1422 Whitethief1412 if used DK barrier + hog can eat whole 0 NADfjKemPaOgdwjeYflNwg Bionicle
+1785.648 Plane Selection id HADhVbwBwfZzY6WArBao6Q
+1785.950 safety on: invuln enabling: True
+1785.950 SetClientUIState PlayingGame from PlayingGame
+1789.233 ClientProximityChat 1424 TimeFly I see 0 NADfjFIuy2CidJ0t3xBdJw Eyrie
+1790.933 safety off: invuln
+1790.933 safety disabled
+1794.915 Selected class paladin
+1794.915 Selected variant default
+1795.750 Plane Selection id HADhVcsQi5S4PHukspbvHg
+1795.967 safety on: invuln enabling: True
+1795.967 SetClientUIState PlayingGame from PlayingGame
+1800.050 safety off: invuln
+1800.050 safety disabled
+1807.338 GC; Frame Time 40.5158 ms
+1808.483 ClientProximityChat 1431 Whitethief1412 he said dmg is like 6 or 3 i think 0 NADfjKemPaOgdwjeYflNwg Bionicle
+1816.411 UTC timestamp now is 2020-03-31 11:43:50.245
+1816.453 Plane Selection Canceled
+1816.717 ClientProximityChat 1431 Whitethief1412 hog barrier too op == 0 NADfjKemPaOgdwjeYflNwg Bionicle
+1819.489 Switching overworld from nexus False
+1822.183 safety on: followup enabling: True
+1822.183 stuck on: followup enabling: True
+Warn: 1822.400 Duplicate mission MissionDataExtended[IsRemoved=False Data=MissionData[Id=PADhVZQF-dVR-UgooqmeUg ConfigId=DQ_CX_12LOW_unicorn_T2 SquadId=OADhVbWDbwpLPNjr9YrPNg PeopleJoined=0 Progress=0]] that we hide from the list.
+1823.300 quests: ClientReceiveQuestRewards Q-DQ_KB_crawler-i-284840837 13
+1823.633 ClientProximityChat 1424 TimeFly but I still wont do that with spec     lmao 0 NADfjFIuy2CidJ0t3xBdJw Eyrie
+1824.398 SetClientUIState JoiningMission from PlayingGame
+1824.398 Joining Status status_enter_mission 
+1824.593 stuck off: followup
+1824.593 stuck disabled
+1824.600 Waiting for server switch
+1825.267 Switching to server RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 26/60 tags: world fields: {} hash: 1117400694]
+1825.267 Disconnect From Server Switching to other server
+1825.267 Connection Attempt Cleared
+1825.300 Client disconnected from server 3E9A11DD767D18F1 : Switching to other server
+1825.300 Network problem report NORMAL 1585655039 RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 44/180 tags: nexus fields: {} hash: -1421663056] disconnected from game server: Switching to other server
+1825.300 Save friends to GPseop2_friendslist
+1825.300 ResetConnectionState
+1825.314 GC; Frame Time 132.6045 ms
+1825.314 Switching  from overworld False
+1825.314 Joining Status status_joining_server 
+1825.314 LoginThenJoinServer  RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 26/60 tags: world fields: {} hash: 1117400694]
+1825.314 SetClientUIState LoggingIn from Initial
+1825.314 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+1825.314 Connecting to server  RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 26/60 tags: world fields: {} hash: 1117400694]
+1825.314 Load friends from GPseop2_friendslist
+1825.314 EndClientUIState LoggingIn
+1825.314 SetClientUIState JoiningServer from LoggingIn
+1825.314 Clearing ambient effects
+1825.317 Client joined server 9D485BF68D1F88D2 local 396D92F3EEE94378
+1825.317 RegisterServerPlayer 9D485BF68D1F88D2
+1825.317 RegisterPlayer 396D92F3EEE94378
+1825.317 AuthenticatePlayer
+1826.633 Server ServerSays : /brag/brag_enemy/Rioscarpo/blinkleader
+1830.200 Server ServerSays : __TR__/ui/squad_new_leader/GPseop2
+1830.200 Server ServerSays : __TR__/ui/squad_player_joined/GPseop2
+1830.200 Queuing conversation tut_02_start
+1830.200 quests: ClientReceivePlayerQuests no local player! 2 5 0
+1830.200 quests: ClientChooseGuidanceTarget 0
+1830.200 quests: ClientReceivePlayerActiveQuest tut_02
+1830.200 Loading once_keys: ,enterisland,tutorial_sharedXP,tutorial_coop,teleport_firsthint,chat_firsthint,teleported,tutorial_autoequip,tutorial_first_crash,hangar_intro,tavern_intro,storage_intro,crafting_intro,tutorial_mulching
+1830.200 Loading timeouts: {}
+1830.200 Connection Attempt Cleared
+1830.200 Welcome from 9D485BF68D1F88D2 World GFgFfH0b3awCzekZXhaVVA Merlin Island Basic PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2) host space 314572800
+1830.200 Client welcome Basic 12 907.5 9D485BF68D1F88D2 314572800 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2)
+1830.200 Reassigning host space from 532676608 to 314572800
+1830.200 quests: QuestsOnWelcome quests=2, prevQuests=5
+1830.200 EndClientUIState JoiningServer
+1830.200 SetClientUIState EarlyAccessMessage from JoiningServer
+1830.200 EndClientUIState EarlyAccessMessage
+1830.200 SetClientUIState EventsAndNews from EarlyAccessMessage
+1830.200 SetClientUIState PlaneSelection from EventsAndNews
+1830.200 Plane selection result HADhVcsQi5S4PHukspbvHg False
+1830.200 Current locale id en-US timezone offset 9
+1830.500 quests: ClientChooseGuidanceTarget 16704
+1831.133 safety on: invuln enabling: True
+1831.133 SetClientUIState PlayingGame from PlaneSelection
+1831.133 Starting conversation tut_02_start
+1831.133 safety on: modal conversation enabling: False
+1831.133 stuck on: modal conversation enabling: True
+1831.142 Insta switching lowlands from  True
+1832.500 Server ServerSays : /brag/brag_enemy/suckblooderyt/beequeen
+1836.117 safety off: invuln
+1836.298 stuck off: modal conversation
+1836.298 stuck disabled
+1836.298 quests: Swap guidance target [tut_02_fatblimp UnitScript 16704] 16704 prev  0
+1836.298 quests: Setup guidance target 92144 1836.298  [tut_02_fatblimp UnitScript 16704] 16704 hash -2031320288
+1839.300 safety off: modal conversation
+1839.300 safety disabled
+1845.933 Server ServerSays : /brag/brag_enemy/triangken/beequeen
+1863.283 Server ServerSays : /brag/brag_enemy/Garick/pharaoh
+1867.367 Server ServerSays : __TR__/ui/squad_player_joined/talkab
+1871.117 Server ServerSays : __TR__/ui/squad_player_joined/evilth
+1872.933 Server ServerSays : /brag/brag_enemy/Pinkbuffy/pharaoh
+1876.174 UTC timestamp now is 2020-03-31 11:44:50.292
+1880.217 quests: ClientChooseGuidanceTarget 0
+1880.217 quests: ClientReceivePlayerQuests quests=2(+0), prevQuests=5(+0), completedOutcomes=0
+1880.242 quests: Swap guidance target  0 prev [tut_02_fatblimp UnitScript 16704] 16704
+1880.242 quests: Discard guidance target 93408 1880.242 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 16704 hash -2031320288
+1881.583 Server ServerSays : /instaloot_currency/iron/60
+1881.583 Server ServerSays : No space for Laser Gladius, so sending to storage
+1881.583 quests: ClientReceiveQuestCompletionInfo tut_02 1 1
+1881.583 Starting conversation tut_02_complete
+1881.583 safety on: modal conversation enabling: True
+1881.583 stuck on: modal conversation enabling: True
+1881.583 quests: ClientReceivePlayerQuests quests=1(-1), prevQuests=6(+1), completedOutcomes=1
+1881.583 quests: ClientChooseGuidanceTarget 0
+1881.583 quests: ClientReceivePlayerActiveQuest 
+1882.917 Server ServerSays : __TR__/ui/squad_leader_picks_followup/GPseop2
+1885.202 stuck off: modal conversation
+1885.202 stuck disabled
+1886.412 safety on: followup enabling: False
+1886.412 stuck on: followup enabling: True
+Warn: 1886.667 Duplicate mission MissionDataExtended[IsRemoved=False Data=MissionData[Id=PADhVckcSB9YFVPrUDQVVA ConfigId=DQ_KX_BEACH_starfighterleader_T1 SquadId=OADhVctLorfoktZW85WUtQ PeopleJoined=0 Progress=0]] that we hide from the list.
+1886.967 quests: ClientReceiveQuestRewards Q-tut_03-i-0 0
+1888.217 safety off: modal conversation
+1888.750 Server ServerSays : __TR__/ui/squad_player_left/talkab
+1889.204 SetClientUIState JoiningMission from PlayingGame
+1889.204 Joining Status status_enter_mission 
+1889.372 stuck off: followup
+1889.372 stuck disabled
+1892.383 safety off: followup
+1892.383 safety disabled
+1919.467 SetClientUIState PlayingGame from JoiningMission
+1922.067 Server ServerSays : /brag/brag_enemy/歐陽叡雪/blinkleader
+1924.317 Switching to server RegisteredHost [ EC4379BAF152F0F1 3_Dungeon_tut_03 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: dungeon fields: {} hash: 373262081]
+1924.317 Disconnect From Server Switching to other server
+1924.317 Connection Attempt Cleared
+1924.350 Client disconnected from server 9D485BF68D1F88D2 : Switching to other server
+1924.350 Network problem report NORMAL 1585655138 RegisteredHost [ 9D485BF68D1F88D2 Merlin Island 0.000 ips 54.255.215.63:1111 v. 390 players 26/60 tags: world fields: {} hash: 1117400694] disconnected from game server: Switching to other server
+1924.350 Save friends to GPseop2_friendslist
+1924.350 ResetConnectionState
+1924.389 GC; Frame Time 145.4863 ms
+1924.389 Joining Status status_joining_server 
+1924.389 LoginThenJoinServer  RegisteredHost [ EC4379BAF152F0F1 3_Dungeon_tut_03 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: dungeon fields: {} hash: 373262081]
+1924.389 SetClientUIState LoggingIn from Initial
+1924.389 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+1924.389 Connecting to server  RegisteredHost [ EC4379BAF152F0F1 3_Dungeon_tut_03 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: dungeon fields: {} hash: 373262081]
+1924.389 Load friends from GPseop2_friendslist
+1924.389 EndClientUIState LoggingIn
+1924.389 SetClientUIState JoiningServer from LoggingIn
+1924.389 Clearing ambient effects
+1924.400 Client joined server EC4379BAF152F0F1 local 8193941A05029CE7
+1924.400 RegisterServerPlayer EC4379BAF152F0F1
+1924.400 RegisterPlayer 8193941A05029CE7
+1924.400 AuthenticatePlayer
+1924.583 Switching  from lowlands False
+1928.867 Queuing conversation tut_03_start
+1928.867 quests: ClientReceivePlayerQuests no local player! 2 6 0
+1928.867 quests: ClientChooseGuidanceTarget 0
+1928.867 quests: ClientReceivePlayerActiveQuest tut_03
+1928.867 Connection Attempt Cleared
+1928.867 Welcome from EC4379BAF152F0F1 Dungeon GADhVcvwkepa6toSSvrqtg 3_Dungeon_tut_03 Dungeon_tut_03 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2) host space 2097152
+1928.867 Client welcome Dungeon_tut_03 12 650 EC4379BAF152F0F1 2097152 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2)
+1928.867 Reassigning host space from 314572800 to 2097152
+1928.867 quests: QuestsOnWelcome quests=2, prevQuests=6
+1928.867 EndClientUIState JoiningServer
+1928.867 SetClientUIState EarlyAccessMessage from JoiningServer
+1928.867 EndClientUIState EarlyAccessMessage
+1928.867 SetClientUIState EventsAndNews from EarlyAccessMessage
+1928.867 SetClientUIState PlaneSelection from EventsAndNews
+1928.867 Plane selection result HADhVcsQi5S4PHukspbvHg False
+1928.867 Current locale id en-US timezone offset 9
+1928.900 Server ServerSays : __TR__/ui/squad_new_leader/GPseop2
+1928.900 Server ServerSays : __TR__/ui/squad_player_joined/GPseop2
+1928.900 Server ServerSays : __TR__/ui/squad_player_joined/evilth
+1929.117 safety on: invuln enabling: True
+1929.117 SetClientUIState PlayingGame from PlaneSelection
+1929.117 Starting conversation tut_03_start
+1929.117 safety on: modal conversation enabling: False
+1929.117 stuck on: modal conversation enabling: True
+1929.133 Insta switching tut03 from  True
+1931.201 stuck off: modal conversation
+1931.201 stuck disabled
+1934.100 safety off: invuln
+1934.217 safety off: modal conversation
+1934.217 safety disabled
+1935.904 UTC timestamp now is 2020-03-31 11:45:50.315
+1936.650 quests: ClientChooseGuidanceTarget 12
+1936.772 quests: Swap guidance target [tut_03_gargantua UnitScript 12] 12 prev  0
+1936.772 quests: Setup guidance target 95076 1936.772  [tut_03_gargantua UnitScript 12] 12 hash -2141040184
+1995.906 UTC timestamp now is 2020-03-31 11:46:50.318
+2011.069 GC; Frame Time 31.1698 ms
+2015.027 OnPlayerPlaneDied 4 DestroyedFromDamage HADhVcsQi5S4PHukspbvHg
+2015.027 SetClientUIState StaringAtDeathLocation from PlayingGame
+2015.027 OnPlayerPlaneDied 4 DestroyedFromDamage 
+2015.027 quests: Discard guidance target 97723 2015.027 UI_MissionIndicator(Clone)001 (UnityEngine.Transform) 12 hash -2141040184
+2015.283 Server ServerSays : /brag/brag_enemy/GPseop2/tut_03_centipede01
+2015.283 quests: ClientChooseGuidanceTarget 0
+Warn: 2015.650 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+Warn: 2015.963 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+Warn: 2016.274 No UICoreControl for DeathItem(Clone) (UGUIPlaneListItem)
+2019.816 EndClientUIState StaringAtDeathLocation
+2019.816 SetClientUIState AskToReturnToNexus from StaringAtDeathLocation
+2021.450 Switching to server RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 28/180 tags: nexus fields: {} hash: -1540269336]
+2021.450 Disconnect From Server Switching to other server
+2021.450 Connection Attempt Cleared
+2021.483 Client disconnected from server EC4379BAF152F0F1 : Switching to other server
+2021.483 Network problem report NORMAL 1585655235 RegisteredHost [ EC4379BAF152F0F1 3_Dungeon_tut_03 0.000 ips 52.77.252.22:1114 v. 390 players 0/60 tags: dungeon fields: {} hash: 373262081] disconnected from game server: Switching to other server
+2021.483 Save friends to GPseop2_friendslist
+2021.483 ResetConnectionState
+2021.503 GC; Frame Time 126.6235 ms
+2021.503 Joining Status status_joining_server 
+2021.503 LoginThenJoinServer  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 28/180 tags: nexus fields: {} hash: -1540269336]
+2021.503 SetClientUIState LoggingIn from Initial
+2021.503 Skipping login since we're already logged in with DohqpB5NZcwSZfmcnl6j6w
+2021.503 Connecting to server  RegisteredHost [ 3E9A11DD767D18F1 Rebel City 1 0.000 ips 52.77.252.22:1111 v. 390 players 28/180 tags: nexus fields: {} hash: -1540269336]
+2021.503 Load friends from GPseop2_friendslist
+2021.503 EndClientUIState LoggingIn
+2021.503 SetClientUIState JoiningServer from LoggingIn
+2021.503 Clearing ambient effects
+2021.517 Client joined server 3E9A11DD767D18F1 local F8ACA7D53E2D2360
+2021.517 RegisterServerPlayer 3E9A11DD767D18F1
+2021.517 RegisterPlayer F8ACA7D53E2D2360
+2021.517 AuthenticatePlayer
+2021.685 Switching  from tut03 False
+2025.850 Loading once_keys: ,enterisland,tutorial_sharedXP,tutorial_coop,teleport_firsthint,chat_firsthint,teleported,tutorial_autoequip,tutorial_first_crash,hangar_intro,tavern_intro,storage_intro,crafting_intro,tutorial_mulching
+2025.850 Loading timeouts: {}
+2025.850 Connection Attempt Cleared
+2025.850 Welcome from 3E9A11DD767D18F1 Nexus GFec-zsG83gAMoME4xwiAg Rebel City 1 Nexus PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2) host space 681574400
+2025.850 Client welcome Nexus 12 650 3E9A11DD767D18F1 681574400 PlayerData(CFgFfS-4AaQAcRtMxcgz6w, GPseop2, 2)
+2025.850 Reassigning host space from 2097152 to 681574400
+2025.850 quests: QuestsOnWelcome quests=2, prevQuests=6
+2025.850 EndClientUIState JoiningServer
+2025.850 SetClientUIState EarlyAccessMessage from JoiningServer
+2025.850 EndClientUIState EarlyAccessMessage
+2025.850 SetClientUIState EventsAndNews from EarlyAccessMessage
+2025.850 SetClientUIState PlaneSelection from EventsAndNews
+2025.850 Viewport update mode NEXUS
+2025.850 Current locale id en-US timezone offset 9
+2025.850 ClientReceiveVagueCareerRewards VagueCareerReward(career_reward_storage_1, CareerRewardCondition(8, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_hangar_1, CareerRewardCondition(12, ), [QuestRewardData(AccountItem, hangar_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_2, CareerRewardCondition(22, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_3, CareerRewardCondition(36, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_4, CareerRewardCondition(50, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_5, CareerRewardCondition(66, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_6, CareerRewardCondition(84, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_7, CareerRewardCondition(101, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_8, CareerRewardCondition(120, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_9, CareerRewardCondition(140, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_10, CareerRewardCondition(160, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_11, CareerRewardCondition(180, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+VagueCareerReward(career_reward_storage_12, CareerRewardCondition(200, ), [QuestRewardData(AccountItem, storage_slot, 0, , 1, )])
+2026.007 Insta switching nexus from  True
+2027.683 ClientProximityChat 1436 LONGTIME  1 NADhPiRAZJHQJ3p71RVp3g ArchBone
+2027.683 quests: ClientReceiveGiverQuests tavern 1
+2027.683 quests: ClientReceiveGiverQuests crafter 379
+2027.683 ClientReceiveAbsenceOfRemotePlayerData CFgDpSWQjoQBpuBqxERz5A
+2027.717 quests: ClientReceivePlayerQuests quests=1(-1), prevQuests=7(+1), completedOutcomes=1
+2027.717 quests: ClientChooseGuidanceTarget 0
+2027.717 quests: ClientReceivePlayerActiveQuest 
+2031.049 Plane selection result HADhVcsQi5S4PHukspbvHg True
+2031.367 safety on: invuln enabling: True
+2031.367 SetClientUIState PlayingGame from PlaneSelection
+2031.372 quests: Swap guidance target  0 prev [tut_03_gargantua UnitScript 12] 12
+2036.350 safety off: invuln
+2036.350 safety disabled
+2046.470 Switching overworld from nexus False
+2049.010 Switching nexus from overworld False
+2049.600 ClientProximityChat 1509 GPseop2  1  
+2050.483 ClientProximityChat 1509 GPseop2  1  
+2050.700 ClientProximityChat 1509 GPseop2  1  
+2051.617 ClientProximityChat 1509 GPseop2  1  
+2054.733 ClientProximityChat 1509 GPseop2  2  
+2054.733 ClientProximityChat 1509 GPseop2  1  
+2055.600 ClientProximityChat 1509 GPseop2  2  
+2055.625 UTC timestamp now is 2020-03-31 11:47:50.320
+2056.371 Switching overworld from nexus False
+2057.967 ClientProximityChat 1509 GPseop2  1  
+2062.757 Switching nexus from overworld False
+2094.570 GC; Frame Time 41.8991 ms
+Shutting down short log handler

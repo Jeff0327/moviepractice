@@ -1,0 +1,11 @@
+{
+  "PATH": "C:\\Users\\aa\\Jsweather\\node_modules\\.bin;C:\\Users\\aa\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\aa\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\aa\\bin;C:\\Program Files (x86)\\NAT Service;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Java\\jdk-11.0.2\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs;C:\\Users\\aa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\aa\\.dotnet\\tools;C:\\Users\\aa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\aa\\AppData\\Roaming\\npm;C:\\Users\\aa\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+  "auth": {
+    "userId": "470e6797-a5b3-46bf-8e4b-043f4ec44e93",
+    "username": "developerj",
+    "currentConnection": "Username-Password-Authentication",
+    "sessionSecret": "{\"id\":\"d5ccee32-6ee5-4ac4-864e-175c3309075f\",\"version\":1,\"expires_at\":1893456000000}"
+  },
+  "openDevToolsAtStartup": false,
+  "uuid": "bd2c8498-44ec-47a1-8cec-7ba1f91e16e0"
+}
